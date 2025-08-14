@@ -628,7 +628,7 @@ public class ManagQStudentProfileTestCases  extends BaseTest{
 		studentsProfilePOM.selectFatherAnnualIncome("₹6,00,001 – ₹8,00,000");
 		studentsProfilePOM.enterFatherWorkPlaceorCompany(fake.company().name());
 		studentsProfilePOM.enterFatherEducationalQaulification(fake.educator().toString());
-		studentsProfilePOM.enterMotherFullName(fake.name().firstName());
+		studentsProfilePOM.enterMotherFullName(fake.name().fullName());
 		studentsProfilePOM.enterMotherAadharNumber(fake.number().digits(12));
 		studentsProfilePOM.selectMotherResidenceStatus("Resident");
 		studentsProfilePOM.enterMotherMobileNumber("9"+fake.number().digits(9));
@@ -990,6 +990,7 @@ public class ManagQStudentProfileTestCases  extends BaseTest{
 		studentsProfilePOM.enterCommunicationAddressLine1(fake.address().streetAddress());
 		studentsProfilePOM.selectCommunicationAddressCity("Coimbatore");
 		studentsProfilePOM.enterCommunicationAddressPincode("6" + fake.number().digits(5));
+		studentsProfilePOM.clickOnGuardianorPrivateAddressOption("Yes");
 		studentsProfilePOM.selectGuardianAddressCountry("India");
 		studentsProfilePOM.selectGuardianAddressState("Tamil Nadu");
 		studentsProfilePOM.enterGuardianAddressLine1(fake.address().streetAddress());

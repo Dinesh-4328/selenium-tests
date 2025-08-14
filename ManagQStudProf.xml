@@ -2,7 +2,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
+      <class name="com.skitech.testCases.ManagQLateralStudProfTestCases"/>
+      <class name="com.skitech.testCases.ManagQStudentProfileTestCases"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -30,9 +30,7 @@ public class EnquiryFormTestCase {
 			e.printStackTrace();
 		}
 	}
-	
-	
-	
+		
 	@BeforeClass
 	public void init() {
 		WebDriverManager.chromedriver().setup();

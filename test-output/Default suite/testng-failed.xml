@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.skitech.testCases.ManagQLateralStudProfTestCases">
+      <class name="com.skitech.testCases.GovtQLateralStudProfTestCases">
         <methods>
           <include name="tearDown"/>
-          <include name="init"/>
           <include name="generateTestData"/>
-          <include name="TC_MQLSP_013_Verify_student_profile_signin_with_invalid_OTP"/>
+          <include name="init"/>
+          <include name="TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file"/>
         </methods>
-      </class> <!-- com.skitech.testCases.ManagQLateralStudProfTestCases -->
+      </class> <!-- com.skitech.testCases.GovtQLateralStudProfTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
