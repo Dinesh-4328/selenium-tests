@@ -1,366 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="77" passed="76" failed="1" skipped="0">
+<testng-results ignored="0" total="45" passed="41" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-14T14:18:48 IST" name="Default suite" finished-at="2025-08-14T14:39:02 IST" duration-ms="1214053">
+  <suite started-at="2025-08-19T16:17:01 IST" name="Default suite" finished-at="2025-08-19T16:28:16 IST" duration-ms="675269">
     <groups>
       <group name="Regression">
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_0100_Verify_go_to_home_in_documents_tab()[pri:76, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_0100_Verify_go_to_home_in_documents_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email()[pri:1, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized()[pri:2, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_013_Verify_student_profile_signin_with_invalid_OTP()[pri:3, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_013_Verify_student_profile_signin_with_invalid_OTP" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_014_Verify_student_profile_account_signin_with_expired_OTP()[pri:4, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_014_Verify_student_profile_account_signin_with_expired_OTP" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_015_Verify_Resend_Code_in_sign_in_screen()[pri:5, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_015_Verify_Resend_Code_in_sign_in_screen" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_016_Verify_Go_back_in_sign_in_screen()[pri:6, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_016_Verify_Go_back_in_sign_in_screen" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_017_Verify_student_profile_account_signin_with_valid_OTP()[pri:7, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_017_Verify_student_profile_account_signin_with_valid_OTP" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_018_Verify_personal_details_tab()[pri:8, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_018_Verify_personal_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_019_Verify_mandatory_alerts_in_add_personal_details_tab()[pri:9, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_019_Verify_mandatory_alerts_in_add_personal_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_020_Verify_add_personal_details()[pri:10, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_020_Verify_add_personal_details" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_021_Verify_add_personal_details_with_invalid_data()[pri:11, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_021_Verify_add_personal_details_with_invalid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_025_Verify_upload_physically_challenged_and_income_certificate_with_invalid_file_types()[pri:12, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_025_Verify_upload_physically_challenged_and_income_certificate_with_invalid_file_types" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_027_Verify_upload_physically_challenged_income_certificate_with_file_size_more_than_5mb()[pri:13, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_027_Verify_upload_physically_challenged_income_certificate_with_file_size_more_than_5mb" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_028_Verify_personal_details_go_to_home_button()[pri:14, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_028_Verify_personal_details_go_to_home_button" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_029_Verify_next_step_in_personal_details_tab()[pri:15, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_029_Verify_next_step_in_personal_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_030_Verify_academic_details_tab()[pri:16, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_030_Verify_academic_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_031_Verify_mandatory_alerts_in_add_academic_details_tab()[pri:17, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_031_Verify_mandatory_alerts_in_add_academic_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_032_Verify_add_academic_details_with_invalid_data()[pri:18, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_032_Verify_add_academic_details_with_invalid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_033_Verify_add_academic_details_with_10th_HSC1_Diploma()[pri:19, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_033_Verify_add_academic_details_with_10th_HSC1_Diploma" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_034_Verify_add_academic_details_with_10th_HSC1_HSC2_Diploma()[pri:20, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_034_Verify_add_academic_details_with_10th_HSC1_HSC2_Diploma" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_035_Verify_add_academic_details_with_10th_Diploma()[pri:21, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_035_Verify_add_academic_details_with_10th_Diploma" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_036_Verify_add_academic_details_with_Diploma_Course_Type_Lateral()[pri:22, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_036_Verify_add_academic_details_with_Diploma_Course_Type_Lateral" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_037_Verify_add_academic_details_with_diploma_course_type_sandwich_7_semesters()[pri:23, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_037_Verify_add_academic_details_with_diploma_course_type_sandwich_7_semesters" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_038_Verify_add_academic_details_with_diploma_course_type_sandwich_8_semesters()[pri:24, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_038_Verify_add_academic_details_with_diploma_course_type_sandwich_8_semesters" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_039_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_7_semesters()[pri:25, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_039_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_7_semesters" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_040_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_8_semesters()[pri:26, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_040_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_8_semesters" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_041_Add_academic_details_by_uploading_invalid_file_types()[pri:27, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_041_Add_academic_details_by_uploading_invalid_file_types" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_042_Verify_Upload_mark_sheet_document_more_than_5_mb()[pri:28, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_042_Verify_Upload_mark_sheet_document_more_than_5_mb" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_043_Verify_academic_details_Go_to_Home()[pri:29, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_043_Verify_academic_details_Go_to_Home" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_045_Verify_family_details_tab()[pri:30, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_045_Verify_family_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_046_Verify_mandatory_field_alert_in_add_family_details_tab()[pri:31, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_046_Verify_mandatory_field_alert_in_add_family_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_047_Verify_add_family_details_with_invalid_data()[pri:32, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_047_Verify_add_family_details_with_invalid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_048_Verify_add_family_details_with_family_type_as_with_parents()[pri:33, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_048_Verify_add_family_details_with_family_type_as_with_parents" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_049_Verify_add_family_details_with_family_type_as_single_parent_with_mother()[pri:34, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_049_Verify_add_family_details_with_family_type_as_single_parent_with_mother" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_050_Verify_add_family_details_with_family_type_as_single_parent_with_father()[pri:35, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_050_Verify_add_family_details_with_family_type_as_single_parent_with_father" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_051_Verify_add_family_details_with_family_type_as_with_guardian()[pri:36, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_051_Verify_add_family_details_with_family_type_as_with_guardian" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_056_Verify_mandatory_fields_in_siblings()[pri:39, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_056_Verify_mandatory_fields_in_siblings" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_057_Verify_add_sibling_with_invalid_data()[pri:40, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_057_Verify_add_sibling_with_invalid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_058_Verify_add_sibling_with_valid_data()[pri:41, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_058_Verify_add_sibling_with_valid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_059_Verify_add_another_sibling()[pri:42, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_059_Verify_add_another_sibling" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_061_Verify_update_siblings()[pri:43, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_061_Verify_update_siblings" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_062_Verify_remove_siblings()[pri:44, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_062_Verify_remove_siblings" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_064_Verify_Go_To_Home_Button_in_family_details()[pri:45, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_064_Verify_Go_To_Home_Button_in_family_details" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_065_Verify_address_details_tab()[pri:46, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_065_Verify_address_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_066_Verify_mandatory_fields_in_address_details_tab()[pri:47, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_066_Verify_mandatory_fields_in_address_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_067_Verify_add_address_details_with_invalid_data()[pri:48, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_067_Verify_add_address_details_with_invalid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_068_Verify_add_address_details_tab()[pri:49, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_068_Verify_add_address_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_069_Verify_Communication_address_is_same_as_permanent_address()[pri:50, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_069_Verify_Communication_address_is_same_as_permanent_address" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_070_Verify_go_to_home_in_address_details()[pri:51, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_070_Verify_go_to_home_in_address_details" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_072_Verify_Admission_Details_tab()[pri:52, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_072_Verify_Admission_Details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_073_Verify_admission_details_tab_mandatory_fields()[pri:53, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_073_Verify_admission_details_tab_mandatory_fields" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_074_Verify_add_admission_details_with_invalid_data()[pri:54, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_074_Verify_add_admission_details_with_invalid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_075_Verify_add_admission_details_with_valid_data()[pri:55, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_075_Verify_add_admission_details_with_valid_data" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_076_Verify_add_admission_details_with_dayscholar_college_transport()[pri:56, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_076_Verify_add_admission_details_with_dayscholar_college_transport" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_077_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_two_wheeler()[pri:57, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_077_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_two_wheeler" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler()[pri:58, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents()[pri:59, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport()[pri:60, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_081_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file()[pri:61, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_081_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_082_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file()[pri:62, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_082_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_083_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb()[pri:63, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_083_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file()[pri:64, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_085_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file()[pri:65, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_085_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_086_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb()[pri:66, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_086_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_087_Verify_add_admission_details_with_go_to_Home()[pri:67, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_087_Verify_add_admission_details_with_go_to_Home" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_089_Verify_Documents_details_tab()[pri:68, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_089_Verify_Documents_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_092_Verify_mandatory_alerts_in_document_details_tab()[pri:69, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_092_Verify_mandatory_alerts_in_document_details_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_094_Verify_Upload_columns_by_uploading_invalid_file_type_for_all_documents_sections()[pri:70, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_094_Verify_Upload_columns_by_uploading_invalid_file_type_for_all_documents_sections" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_095_Verify_Upload_columns_by_uploading_more_than_5mb()[pri:71, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_095_Verify_Upload_columns_by_uploading_more_than_5mb" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_096_Verify_Upload_valid_file_in_all_document_sections_in_document_tab()[pri:72, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_096_Verify_Upload_valid_file_in_all_document_sections_in_document_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_097_Verify_view_all_document_sections_in_document_tab()[pri:73, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_097_Verify_view_all_document_sections_in_document_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_098_Verify_remove_documents_in_document_tab()[pri:74, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_098_Verify_remove_documents_in_document_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_099_Verify_previous_step_in_documents_tab()[pri:75, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_099_Verify_previous_step_in_documents_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_101_Verify_preview_tab_sections()[pri:77, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_101_Verify_preview_tab_sections" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_108_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section()[pri:78, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_108_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
-        <method signature="GovtQLateralStudProfTestCases.TC_GQLSP_109_Verify_submit_button_in_preview_tab()[pri:79, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" name="TC_GQLSP_109_Verify_submit_button_in_preview_tab" class="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_005_Verify_sending_6digit_code_with_valid_email()[pri:1, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_005_Verify_sending_6digit_code_with_valid_email" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email()[pri:2, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP()[pri:3, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP()[pri:4, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP()[pri:5, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_010_Verify_Resend_Code_in_signin_screen()[pri:6, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_010_Verify_Resend_Code_in_signin_screen" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_011_Verify_GoBack_in_Signin_Screen()[pri:7, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_011_Verify_GoBack_in_Signin_Screen" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_013_Verify_After_signin_screen_menus()[pri:8, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_013_Verify_After_signin_screen_menus" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_015_Verify_Search_with_valid_Mobile_No()[pri:9, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_015_Verify_Search_with_valid_Mobile_No" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_016_Verify_Search_with_invalid_Mobile_No()[pri:10, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_016_Verify_Search_with_invalid_Mobile_No" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_017_Verify_Search_with_valid_admission_no()[pri:11, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_017_Verify_Search_with_valid_admission_no" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_018_Verify_Search_with_invalid_admission_no()[pri:12, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_018_Verify_Search_with_invalid_admission_no" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results()[pri:13, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_019_Verify_Overview_tab()[pri:14, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_019_Verify_Overview_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_025_Verify_Student_Information_tab()[pri:15, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_025_Verify_Student_Information_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab()[pri:16, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab()[pri:17, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_030_Verify_Edit_Student_Information_details()[pri:18, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_030_Verify_Edit_Student_Information_details" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data()[pri:19, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_032_Verify_Academic_History_tab()[pri:20, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_032_Verify_Academic_History_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data()[pri:21, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab()[pri:22, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_037_Verify_edit_academic_history_fields()[pri:23, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_037_Verify_edit_academic_history_fields" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data()[pri:24, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_039_Verify_family_details_tab()[pri:25, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_039_Verify_family_details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data()[pri:26, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab()[pri:27, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_044_Verify_edit_Family_Details()[pri:28, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_044_Verify_edit_Family_Details" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data()[pri:29, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_046_Verify_Address_Details_tab()[pri:30, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_046_Verify_Address_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted()[pri:31, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab()[pri:32, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_051_Verify_edit_address_details_fields()[pri:33, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_051_Verify_edit_address_details_fields" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data()[pri:34, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_053_Verify_Admission_Details_tab()[pri:35, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_053_Verify_Admission_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab()[pri:36, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab()[pri:37, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_058_Verify_edit_admission_details_fields()[pri:38, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_058_Verify_edit_admission_details_fields" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_060_Verify_document_tab_sections()[pri:40, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_060_Verify_document_tab_sections" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification()[pri:41, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up()[pri:42, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_066_Verify_all_documents_in_document_view_pop_up()[pri:43, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_068_Verify_finish_verification_without_collecting_documents()[pri:44, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_068_Verify_finish_verification_without_collecting_documents" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_069_Verify_collect_column_for_all_documents()[pri:45, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_069_Verify_collect_column_for_all_documents" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_070_Verify_finish_verification_after_collecting_documents()[pri:46, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_070_Verify_finish_verification_after_collecting_documents" class="com.skitech.testCases.GovtQAOVOTestCase"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-08-14T14:18:48 IST" name="Default test" finished-at="2025-08-14T14:39:02 IST" duration-ms="1214053">
-      <class name="com.skitech.testCases.GovtQLateralStudProfTestCases">
-        <test-method is-config="true" signature="generateTestData()[pri:0, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:18:48 IST" name="generateTestData" finished-at="2025-08-14T14:18:48 IST" duration-ms="6" status="PASS">
+    <test started-at="2025-08-19T16:17:01 IST" name="Default test" finished-at="2025-08-19T16:28:16 IST" duration-ms="675269">
+      <class name="com.skitech.testCases.GovtQAOVOTestCase">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:01 IST" name="generateTestData" finished-at="2025-08-19T16:17:01 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestData -->
-        <test-method is-config="true" signature="init()[pri:0, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:18:48 IST" name="init" finished-at="2025-08-14T14:18:52 IST" duration-ms="3976" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:01 IST" name="init" finished-at="2025-08-19T16:17:03 IST" duration-ms="1487" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email()[pri:1, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:18:52 IST" name="TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email" finished-at="2025-08-14T14:19:28 IST" duration-ms="35210" status="PASS">
+        <test-method signature="TC_AOVO_005_Verify_sending_6digit_code_with_valid_email()[pri:1, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:03 IST" name="TC_AOVO_005_Verify_sending_6digit_code_with_valid_email" finished-at="2025-08-19T16:17:15 IST" duration-ms="12599" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email -->
-        <test-method signature="TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized()[pri:2, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:19:28 IST" name="TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized" finished-at="2025-08-14T14:19:34 IST" duration-ms="6588" status="PASS">
+        </test-method> <!-- TC_AOVO_005_Verify_sending_6digit_code_with_valid_email -->
+        <test-method signature="TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email()[pri:2, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:15 IST" name="TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email" finished-at="2025-08-19T16:17:22 IST" duration-ms="6388" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized -->
-        <test-method signature="TC_GQLSP_013_Verify_student_profile_signin_with_invalid_OTP()[pri:3, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:19:34 IST" name="TC_GQLSP_013_Verify_student_profile_signin_with_invalid_OTP" finished-at="2025-08-14T14:19:46 IST" duration-ms="11454" status="PASS">
+        </test-method> <!-- TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email -->
+        <test-method signature="TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP()[pri:3, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:22 IST" name="TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP" finished-at="2025-08-19T16:17:31 IST" duration-ms="9475" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_013_Verify_student_profile_signin_with_invalid_OTP -->
-        <test-method signature="TC_GQLSP_014_Verify_student_profile_account_signin_with_expired_OTP()[pri:4, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:19:46 IST" name="TC_GQLSP_014_Verify_student_profile_account_signin_with_expired_OTP" finished-at="2025-08-14T14:20:59 IST" duration-ms="73756" status="PASS">
+        </test-method> <!-- TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP -->
+        <test-method signature="TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP()[pri:4, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:31 IST" name="TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP" finished-at="2025-08-19T16:17:44 IST" duration-ms="12890" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_014_Verify_student_profile_account_signin_with_expired_OTP -->
-        <test-method signature="TC_GQLSP_015_Verify_Resend_Code_in_sign_in_screen()[pri:5, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:20:59 IST" name="TC_GQLSP_015_Verify_Resend_Code_in_sign_in_screen" finished-at="2025-08-14T14:21:08 IST" duration-ms="8566" status="PASS">
+        </test-method> <!-- TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP -->
+        <test-method signature="TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP()[pri:5, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:44 IST" name="TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP" finished-at="2025-08-19T16:18:57 IST" duration-ms="72428" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_015_Verify_Resend_Code_in_sign_in_screen -->
-        <test-method signature="TC_GQLSP_016_Verify_Go_back_in_sign_in_screen()[pri:6, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:08 IST" name="TC_GQLSP_016_Verify_Go_back_in_sign_in_screen" finished-at="2025-08-14T14:21:19 IST" duration-ms="10932" status="PASS">
+        </test-method> <!-- TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP -->
+        <test-method signature="TC_AOVO_010_Verify_Resend_Code_in_signin_screen()[pri:6, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:18:57 IST" name="TC_AOVO_010_Verify_Resend_Code_in_signin_screen" finished-at="2025-08-19T16:19:10 IST" duration-ms="13298" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_016_Verify_Go_back_in_sign_in_screen -->
-        <test-method signature="TC_GQLSP_017_Verify_student_profile_account_signin_with_valid_OTP()[pri:7, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:19 IST" name="TC_GQLSP_017_Verify_student_profile_account_signin_with_valid_OTP" finished-at="2025-08-14T14:21:29 IST" duration-ms="10497" status="PASS">
+        </test-method> <!-- TC_AOVO_010_Verify_Resend_Code_in_signin_screen -->
+        <test-method signature="TC_AOVO_011_Verify_GoBack_in_Signin_Screen()[pri:7, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:10 IST" name="TC_AOVO_011_Verify_GoBack_in_Signin_Screen" finished-at="2025-08-19T16:19:22 IST" duration-ms="12627" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_017_Verify_student_profile_account_signin_with_valid_OTP -->
-        <test-method signature="TC_GQLSP_018_Verify_personal_details_tab()[pri:8, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:29 IST" name="TC_GQLSP_018_Verify_personal_details_tab" finished-at="2025-08-14T14:21:30 IST" duration-ms="346" status="PASS">
+        </test-method> <!-- TC_AOVO_011_Verify_GoBack_in_Signin_Screen -->
+        <test-method signature="TC_AOVO_013_Verify_After_signin_screen_menus()[pri:8, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:22 IST" name="TC_AOVO_013_Verify_After_signin_screen_menus" finished-at="2025-08-19T16:19:34 IST" duration-ms="11341" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_018_Verify_personal_details_tab -->
-        <test-method signature="TC_GQLSP_019_Verify_mandatory_alerts_in_add_personal_details_tab()[pri:9, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:30 IST" name="TC_GQLSP_019_Verify_mandatory_alerts_in_add_personal_details_tab" finished-at="2025-08-14T14:21:36 IST" duration-ms="6316" status="PASS">
+        </test-method> <!-- TC_AOVO_013_Verify_After_signin_screen_menus -->
+        <test-method signature="TC_AOVO_015_Verify_Search_with_valid_Mobile_No()[pri:9, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:34 IST" name="TC_AOVO_015_Verify_Search_with_valid_Mobile_No" finished-at="2025-08-19T16:19:42 IST" duration-ms="7746" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_019_Verify_mandatory_alerts_in_add_personal_details_tab -->
-        <test-method signature="TC_GQLSP_020_Verify_add_personal_details()[pri:10, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:36 IST" name="TC_GQLSP_020_Verify_add_personal_details" finished-at="2025-08-14T14:21:47 IST" duration-ms="10916" status="PASS">
+        </test-method> <!-- TC_AOVO_015_Verify_Search_with_valid_Mobile_No -->
+        <test-method signature="TC_AOVO_016_Verify_Search_with_invalid_Mobile_No()[pri:10, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:42 IST" name="TC_AOVO_016_Verify_Search_with_invalid_Mobile_No" finished-at="2025-08-19T16:19:49 IST" duration-ms="7466" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_020_Verify_add_personal_details -->
-        <test-method signature="TC_GQLSP_021_Verify_add_personal_details_with_invalid_data()[pri:11, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:47 IST" name="TC_GQLSP_021_Verify_add_personal_details_with_invalid_data" finished-at="2025-08-14T14:21:52 IST" duration-ms="4857" status="PASS">
+        </test-method> <!-- TC_AOVO_016_Verify_Search_with_invalid_Mobile_No -->
+        <test-method signature="TC_AOVO_017_Verify_Search_with_valid_admission_no()[pri:11, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:49 IST" name="TC_AOVO_017_Verify_Search_with_valid_admission_no" finished-at="2025-08-19T16:19:57 IST" duration-ms="7546" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_021_Verify_add_personal_details_with_invalid_data -->
-        <test-method signature="TC_GQLSP_025_Verify_upload_physically_challenged_and_income_certificate_with_invalid_file_types()[pri:12, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:52 IST" name="TC_GQLSP_025_Verify_upload_physically_challenged_and_income_certificate_with_invalid_file_types" finished-at="2025-08-14T14:21:58 IST" duration-ms="6308" status="PASS">
+        </test-method> <!-- TC_AOVO_017_Verify_Search_with_valid_admission_no -->
+        <test-method signature="TC_AOVO_018_Verify_Search_with_invalid_admission_no()[pri:12, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:57 IST" name="TC_AOVO_018_Verify_Search_with_invalid_admission_no" finished-at="2025-08-19T16:20:03 IST" duration-ms="6270" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_025_Verify_upload_physically_challenged_and_income_certificate_with_invalid_file_types -->
-        <test-method signature="TC_GQLSP_027_Verify_upload_physically_challenged_income_certificate_with_file_size_more_than_5mb()[pri:13, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:21:58 IST" name="TC_GQLSP_027_Verify_upload_physically_challenged_income_certificate_with_file_size_more_than_5mb" finished-at="2025-08-14T14:22:04 IST" duration-ms="6114" status="PASS">
+        </test-method> <!-- TC_AOVO_018_Verify_Search_with_invalid_admission_no -->
+        <test-method signature="TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results()[pri:13, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:03 IST" name="TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results" finished-at="2025-08-19T16:20:09 IST" duration-ms="6431" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_027_Verify_upload_physically_challenged_income_certificate_with_file_size_more_than_5mb -->
-        <test-method signature="TC_GQLSP_028_Verify_personal_details_go_to_home_button()[pri:14, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:22:04 IST" name="TC_GQLSP_028_Verify_personal_details_go_to_home_button" finished-at="2025-08-14T14:22:08 IST" duration-ms="4005" status="PASS">
+        </test-method> <!-- TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results -->
+        <test-method signature="TC_AOVO_019_Verify_Overview_tab()[pri:14, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:09 IST" name="TC_AOVO_019_Verify_Overview_tab" finished-at="2025-08-19T16:20:09 IST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_028_Verify_personal_details_go_to_home_button -->
-        <test-method signature="TC_GQLSP_029_Verify_next_step_in_personal_details_tab()[pri:15, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:22:08 IST" name="TC_GQLSP_029_Verify_next_step_in_personal_details_tab" finished-at="2025-08-14T14:22:13 IST" duration-ms="4422" status="PASS">
+        </test-method> <!-- TC_AOVO_019_Verify_Overview_tab -->
+        <test-method signature="TC_AOVO_025_Verify_Student_Information_tab()[pri:15, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:09 IST" name="TC_AOVO_025_Verify_Student_Information_tab" finished-at="2025-08-19T16:20:13 IST" duration-ms="3254" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_029_Verify_next_step_in_personal_details_tab -->
-        <test-method signature="TC_GQLSP_030_Verify_academic_details_tab()[pri:16, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:22:13 IST" name="TC_GQLSP_030_Verify_academic_details_tab" finished-at="2025-08-14T14:22:13 IST" duration-ms="190" status="PASS">
+        </test-method> <!-- TC_AOVO_025_Verify_Student_Information_tab -->
+        <test-method signature="TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab()[pri:16, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:13 IST" name="TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab" finished-at="2025-08-19T16:20:18 IST" duration-ms="5685" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_030_Verify_academic_details_tab -->
-        <test-method signature="TC_GQLSP_031_Verify_mandatory_alerts_in_add_academic_details_tab()[pri:17, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:22:13 IST" name="TC_GQLSP_031_Verify_mandatory_alerts_in_add_academic_details_tab" finished-at="2025-08-14T14:22:18 IST" duration-ms="5548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_031_Verify_mandatory_alerts_in_add_academic_details_tab -->
-        <test-method signature="TC_GQLSP_032_Verify_add_academic_details_with_invalid_data()[pri:18, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:22:18 IST" name="TC_GQLSP_032_Verify_add_academic_details_with_invalid_data" finished-at="2025-08-14T14:22:30 IST" duration-ms="11295" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_032_Verify_add_academic_details_with_invalid_data -->
-        <test-method signature="TC_GQLSP_033_Verify_add_academic_details_with_10th_HSC1_Diploma()[pri:19, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:22:30 IST" name="TC_GQLSP_033_Verify_add_academic_details_with_10th_HSC1_Diploma" finished-at="2025-08-14T14:24:06 IST" duration-ms="95750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_033_Verify_add_academic_details_with_10th_HSC1_Diploma -->
-        <test-method signature="TC_GQLSP_034_Verify_add_academic_details_with_10th_HSC1_HSC2_Diploma()[pri:20, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:24:06 IST" name="TC_GQLSP_034_Verify_add_academic_details_with_10th_HSC1_HSC2_Diploma" finished-at="2025-08-14T14:24:40 IST" duration-ms="34048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_034_Verify_add_academic_details_with_10th_HSC1_HSC2_Diploma -->
-        <test-method signature="TC_GQLSP_035_Verify_add_academic_details_with_10th_Diploma()[pri:21, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:24:40 IST" name="TC_GQLSP_035_Verify_add_academic_details_with_10th_Diploma" finished-at="2025-08-14T14:24:46 IST" duration-ms="6945" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_035_Verify_add_academic_details_with_10th_Diploma -->
-        <test-method signature="TC_GQLSP_036_Verify_add_academic_details_with_Diploma_Course_Type_Lateral()[pri:22, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:24:46 IST" name="TC_GQLSP_036_Verify_add_academic_details_with_Diploma_Course_Type_Lateral" finished-at="2025-08-14T14:25:16 IST" duration-ms="29098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_036_Verify_add_academic_details_with_Diploma_Course_Type_Lateral -->
-        <test-method signature="TC_GQLSP_037_Verify_add_academic_details_with_diploma_course_type_sandwich_7_semesters()[pri:23, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:25:16 IST" name="TC_GQLSP_037_Verify_add_academic_details_with_diploma_course_type_sandwich_7_semesters" finished-at="2025-08-14T14:25:52 IST" duration-ms="36334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_037_Verify_add_academic_details_with_diploma_course_type_sandwich_7_semesters -->
-        <test-method signature="TC_GQLSP_038_Verify_add_academic_details_with_diploma_course_type_sandwich_8_semesters()[pri:24, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:25:52 IST" name="TC_GQLSP_038_Verify_add_academic_details_with_diploma_course_type_sandwich_8_semesters" finished-at="2025-08-14T14:26:31 IST" duration-ms="38966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_038_Verify_add_academic_details_with_diploma_course_type_sandwich_8_semesters -->
-        <test-method signature="TC_GQLSP_039_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_7_semesters()[pri:25, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:26:31 IST" name="TC_GQLSP_039_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_7_semesters" finished-at="2025-08-14T14:27:03 IST" duration-ms="32386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_039_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_7_semesters -->
-        <test-method signature="TC_GQLSP_040_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_8_semesters()[pri:26, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:27:03 IST" name="TC_GQLSP_040_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_8_semesters" finished-at="2025-08-14T14:27:38 IST" duration-ms="34320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_040_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_8_semesters -->
-        <test-method signature="TC_GQLSP_041_Add_academic_details_by_uploading_invalid_file_types()[pri:27, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:27:38 IST" name="TC_GQLSP_041_Add_academic_details_by_uploading_invalid_file_types" finished-at="2025-08-14T14:28:38 IST" duration-ms="60714" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_041_Add_academic_details_by_uploading_invalid_file_types -->
-        <test-method signature="TC_GQLSP_042_Verify_Upload_mark_sheet_document_more_than_5_mb()[pri:28, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:28:38 IST" name="TC_GQLSP_042_Verify_Upload_mark_sheet_document_more_than_5_mb" finished-at="2025-08-14T14:28:42 IST" duration-ms="3676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_042_Verify_Upload_mark_sheet_document_more_than_5_mb -->
-        <test-method signature="TC_GQLSP_043_Verify_academic_details_Go_to_Home()[pri:29, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:28:42 IST" name="TC_GQLSP_043_Verify_academic_details_Go_to_Home" finished-at="2025-08-14T14:28:46 IST" duration-ms="4195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_043_Verify_academic_details_Go_to_Home -->
-        <test-method signature="TC_GQLSP_045_Verify_family_details_tab()[pri:30, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:28:46 IST" name="TC_GQLSP_045_Verify_family_details_tab" finished-at="2025-08-14T14:28:49 IST" duration-ms="2520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_045_Verify_family_details_tab -->
-        <test-method signature="TC_GQLSP_046_Verify_mandatory_field_alert_in_add_family_details_tab()[pri:31, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:28:49 IST" name="TC_GQLSP_046_Verify_mandatory_field_alert_in_add_family_details_tab" finished-at="2025-08-14T14:29:01 IST" duration-ms="12053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_046_Verify_mandatory_field_alert_in_add_family_details_tab -->
-        <test-method signature="TC_GQLSP_047_Verify_add_family_details_with_invalid_data()[pri:32, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:29:01 IST" name="TC_GQLSP_047_Verify_add_family_details_with_invalid_data" finished-at="2025-08-14T14:29:24 IST" duration-ms="23622" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_047_Verify_add_family_details_with_invalid_data -->
-        <test-method signature="TC_GQLSP_048_Verify_add_family_details_with_family_type_as_with_parents()[pri:33, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:29:24 IST" name="TC_GQLSP_048_Verify_add_family_details_with_family_type_as_with_parents" finished-at="2025-08-14T14:30:02 IST" duration-ms="37698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_048_Verify_add_family_details_with_family_type_as_with_parents -->
-        <test-method signature="TC_GQLSP_049_Verify_add_family_details_with_family_type_as_single_parent_with_mother()[pri:34, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:30:02 IST" name="TC_GQLSP_049_Verify_add_family_details_with_family_type_as_single_parent_with_mother" finished-at="2025-08-14T14:30:11 IST" duration-ms="8800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_049_Verify_add_family_details_with_family_type_as_single_parent_with_mother -->
-        <test-method signature="TC_GQLSP_050_Verify_add_family_details_with_family_type_as_single_parent_with_father()[pri:35, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:30:11 IST" name="TC_GQLSP_050_Verify_add_family_details_with_family_type_as_single_parent_with_father" finished-at="2025-08-14T14:30:20 IST" duration-ms="8933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_050_Verify_add_family_details_with_family_type_as_single_parent_with_father -->
-        <test-method signature="TC_GQLSP_051_Verify_add_family_details_with_family_type_as_with_guardian()[pri:36, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:30:20 IST" name="TC_GQLSP_051_Verify_add_family_details_with_family_type_as_with_guardian" finished-at="2025-08-14T14:30:39 IST" duration-ms="18881" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_051_Verify_add_family_details_with_family_type_as_with_guardian -->
-        <test-method signature="TC_GQLSP_056_Verify_mandatory_fields_in_siblings()[pri:39, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:30:39 IST" name="TC_GQLSP_056_Verify_mandatory_fields_in_siblings" finished-at="2025-08-14T14:30:53 IST" duration-ms="13897" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_056_Verify_mandatory_fields_in_siblings -->
-        <test-method signature="TC_GQLSP_057_Verify_add_sibling_with_invalid_data()[pri:40, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:30:53 IST" name="TC_GQLSP_057_Verify_add_sibling_with_invalid_data" finished-at="2025-08-14T14:31:03 IST" duration-ms="10064" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_057_Verify_add_sibling_with_invalid_data -->
-        <test-method signature="TC_GQLSP_058_Verify_add_sibling_with_valid_data()[pri:41, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:31:03 IST" name="TC_GQLSP_058_Verify_add_sibling_with_valid_data" finished-at="2025-08-14T14:31:27 IST" duration-ms="23950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_058_Verify_add_sibling_with_valid_data -->
-        <test-method signature="TC_GQLSP_059_Verify_add_another_sibling()[pri:42, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:31:27 IST" name="TC_GQLSP_059_Verify_add_another_sibling" finished-at="2025-08-14T14:32:02 IST" duration-ms="35412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_059_Verify_add_another_sibling -->
-        <test-method signature="TC_GQLSP_061_Verify_update_siblings()[pri:43, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:32:02 IST" name="TC_GQLSP_061_Verify_update_siblings" finished-at="2025-08-14T14:32:29 IST" duration-ms="26930" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_061_Verify_update_siblings -->
-        <test-method signature="TC_GQLSP_062_Verify_remove_siblings()[pri:44, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:32:29 IST" name="TC_GQLSP_062_Verify_remove_siblings" finished-at="2025-08-14T14:32:38 IST" duration-ms="8557" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_062_Verify_remove_siblings -->
-        <test-method signature="TC_GQLSP_064_Verify_Go_To_Home_Button_in_family_details()[pri:45, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:32:38 IST" name="TC_GQLSP_064_Verify_Go_To_Home_Button_in_family_details" finished-at="2025-08-14T14:32:44 IST" duration-ms="6465" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_064_Verify_Go_To_Home_Button_in_family_details -->
-        <test-method signature="TC_GQLSP_065_Verify_address_details_tab()[pri:46, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:32:44 IST" name="TC_GQLSP_065_Verify_address_details_tab" finished-at="2025-08-14T14:32:47 IST" duration-ms="2537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_065_Verify_address_details_tab -->
-        <test-method signature="TC_GQLSP_066_Verify_mandatory_fields_in_address_details_tab()[pri:47, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:32:47 IST" name="TC_GQLSP_066_Verify_mandatory_fields_in_address_details_tab" finished-at="2025-08-14T14:32:52 IST" duration-ms="5009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_066_Verify_mandatory_fields_in_address_details_tab -->
-        <test-method signature="TC_GQLSP_067_Verify_add_address_details_with_invalid_data()[pri:48, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:32:52 IST" name="TC_GQLSP_067_Verify_add_address_details_with_invalid_data" finished-at="2025-08-14T14:33:00 IST" duration-ms="8901" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_067_Verify_add_address_details_with_invalid_data -->
-        <test-method signature="TC_GQLSP_068_Verify_add_address_details_tab()[pri:49, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:00 IST" name="TC_GQLSP_068_Verify_add_address_details_tab" finished-at="2025-08-14T14:33:21 IST" duration-ms="20676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_068_Verify_add_address_details_tab -->
-        <test-method signature="TC_GQLSP_069_Verify_Communication_address_is_same_as_permanent_address()[pri:50, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:21 IST" name="TC_GQLSP_069_Verify_Communication_address_is_same_as_permanent_address" finished-at="2025-08-14T14:33:30 IST" duration-ms="8678" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_069_Verify_Communication_address_is_same_as_permanent_address -->
-        <test-method signature="TC_GQLSP_070_Verify_go_to_home_in_address_details()[pri:51, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:30 IST" name="TC_GQLSP_070_Verify_go_to_home_in_address_details" finished-at="2025-08-14T14:33:36 IST" duration-ms="6332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_070_Verify_go_to_home_in_address_details -->
-        <test-method signature="TC_GQLSP_072_Verify_Admission_Details_tab()[pri:52, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:36 IST" name="TC_GQLSP_072_Verify_Admission_Details_tab" finished-at="2025-08-14T14:33:39 IST" duration-ms="2559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_072_Verify_Admission_Details_tab -->
-        <test-method signature="TC_GQLSP_073_Verify_admission_details_tab_mandatory_fields()[pri:53, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:39 IST" name="TC_GQLSP_073_Verify_admission_details_tab_mandatory_fields" finished-at="2025-08-14T14:33:42 IST" duration-ms="3271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_073_Verify_admission_details_tab_mandatory_fields -->
-        <test-method signature="TC_GQLSP_074_Verify_add_admission_details_with_invalid_data()[pri:54, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:42 IST" name="TC_GQLSP_074_Verify_add_admission_details_with_invalid_data" finished-at="2025-08-14T14:33:45 IST" duration-ms="3393" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_074_Verify_add_admission_details_with_invalid_data -->
-        <test-method signature="TC_GQLSP_075_Verify_add_admission_details_with_valid_data()[pri:55, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:45 IST" name="TC_GQLSP_075_Verify_add_admission_details_with_valid_data" finished-at="2025-08-14T14:33:50 IST" duration-ms="4460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_075_Verify_add_admission_details_with_valid_data -->
-        <test-method signature="TC_GQLSP_076_Verify_add_admission_details_with_dayscholar_college_transport()[pri:56, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:33:50 IST" name="TC_GQLSP_076_Verify_add_admission_details_with_dayscholar_college_transport" finished-at="2025-08-14T14:34:00 IST" duration-ms="9802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_076_Verify_add_admission_details_with_dayscholar_college_transport -->
-        <test-method signature="TC_GQLSP_077_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_two_wheeler()[pri:57, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:00 IST" name="TC_GQLSP_077_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_two_wheeler" finished-at="2025-08-14T14:34:09 IST" duration-ms="8924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_077_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_two_wheeler -->
-        <test-method signature="TC_GQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler()[pri:58, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:09 IST" name="TC_GQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler" finished-at="2025-08-14T14:34:16 IST" duration-ms="7741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler -->
-        <test-method signature="TC_GQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents()[pri:59, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:16 IST" name="TC_GQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents" finished-at="2025-08-14T14:34:24 IST" duration-ms="7391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents -->
-        <test-method signature="TC_GQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport()[pri:60, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:24 IST" name="TC_GQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport" finished-at="2025-08-14T14:34:31 IST" duration-ms="7398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport -->
-        <test-method signature="TC_GQLSP_081_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file()[pri:61, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:31 IST" name="TC_GQLSP_081_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file" finished-at="2025-08-14T14:34:44 IST" duration-ms="13050" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_081_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file -->
-        <test-method signature="TC_GQLSP_082_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file()[pri:62, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:44 IST" name="TC_GQLSP_082_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file" finished-at="2025-08-14T14:34:52 IST" duration-ms="7407" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_082_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file -->
-        <test-method signature="TC_GQLSP_083_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb()[pri:63, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:52 IST" name="TC_GQLSP_083_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb" finished-at="2025-08-14T14:34:56 IST" duration-ms="4466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GQLSP_083_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb -->
-        <test-method signature="TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file()[pri:64, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:34:56 IST" name="TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file" finished-at="2025-08-14T14:35:05 IST" duration-ms="8773" status="FAIL">
+        </test-method> <!-- TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab -->
+        <test-method signature="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab()[pri:17, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:18 IST" name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab" finished-at="2025-08-19T16:20:21 IST" duration-ms="2183" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Mark as Verified']"}
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61cd909cd5b543e82a0a7e880826b821
-*** Element info: {Using=xpath, value=//div[@id='success-toast']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[text()='Mark as Verified']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Mark as Verified']"}
   (Session info: chrome=138.0.7204.184)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 61cd909cd5b543e82a0a7e880826b821
-*** Element info: {Using=xpath, value=//div[@id='success-toast']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[text()='Mark as Verified']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -376,9 +164,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
-at com.skitech.pageObjectsRepo.StudentsProfilePOM.getSuccessToasterAlert(StudentsProfilePOM.java:1228)
-at com.skitech.testCases.GovtQLateralStudProfTestCases.TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file(GovtQLateralStudProfTestCases.java:1552)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at com.skitech.pageObjectsRepo.AOVOPageObjects.clickOnMarkasVerified(AOVOPageObjects.java:367)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab(GovtQAOVOTestCase.java:385)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
@@ -410,72 +198,331 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file -->
-        <test-method signature="TC_GQLSP_085_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file()[pri:65, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:05 IST" name="TC_GQLSP_085_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file" finished-at="2025-08-14T14:35:12 IST" duration-ms="7493" status="PASS">
+        </test-method> <!-- TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab -->
+        <test-method signature="TC_AOVO_030_Verify_Edit_Student_Information_details()[pri:18, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:21 IST" name="TC_AOVO_030_Verify_Edit_Student_Information_details" finished-at="2025-08-19T16:20:34 IST" duration-ms="13321" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_085_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file -->
-        <test-method signature="TC_GQLSP_086_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb()[pri:66, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:12 IST" name="TC_GQLSP_086_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb" finished-at="2025-08-14T14:35:17 IST" duration-ms="4333" status="PASS">
+        </test-method> <!-- TC_AOVO_030_Verify_Edit_Student_Information_details -->
+        <test-method signature="TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data()[pri:19, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:34 IST" name="TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data" finished-at="2025-08-19T16:20:37 IST" duration-ms="3364" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_086_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb -->
-        <test-method signature="TC_GQLSP_087_Verify_add_admission_details_with_go_to_Home()[pri:67, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:17 IST" name="TC_GQLSP_087_Verify_add_admission_details_with_go_to_Home" finished-at="2025-08-14T14:35:21 IST" duration-ms="4166" status="PASS">
+        </test-method> <!-- TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data -->
+        <test-method signature="TC_AOVO_032_Verify_Academic_History_tab()[pri:20, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:37 IST" name="TC_AOVO_032_Verify_Academic_History_tab" finished-at="2025-08-19T16:20:40 IST" duration-ms="3196" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_087_Verify_add_admission_details_with_go_to_Home -->
-        <test-method signature="TC_GQLSP_089_Verify_Documents_details_tab()[pri:68, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:21 IST" name="TC_GQLSP_089_Verify_Documents_details_tab" finished-at="2025-08-14T14:35:23 IST" duration-ms="2553" status="PASS">
+        </test-method> <!-- TC_AOVO_032_Verify_Academic_History_tab -->
+        <test-method signature="TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data()[pri:21, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:40 IST" name="TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data" finished-at="2025-08-19T16:20:54 IST" duration-ms="13832" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_089_Verify_Documents_details_tab -->
-        <test-method signature="TC_GQLSP_092_Verify_mandatory_alerts_in_document_details_tab()[pri:69, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:23 IST" name="TC_GQLSP_092_Verify_mandatory_alerts_in_document_details_tab" finished-at="2025-08-14T14:35:26 IST" duration-ms="2530" status="PASS">
+        </test-method> <!-- TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data -->
+        <test-method signature="TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab()[pri:22, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:54 IST" name="TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab" finished-at="2025-08-19T16:21:00 IST" duration-ms="5446" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_092_Verify_mandatory_alerts_in_document_details_tab -->
-        <test-method signature="TC_GQLSP_094_Verify_Upload_columns_by_uploading_invalid_file_type_for_all_documents_sections()[pri:70, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:26 IST" name="TC_GQLSP_094_Verify_Upload_columns_by_uploading_invalid_file_type_for_all_documents_sections" finished-at="2025-08-14T14:35:45 IST" duration-ms="18898" status="PASS">
+        </test-method> <!-- TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab -->
+        <test-method signature="TC_AOVO_037_Verify_edit_academic_history_fields()[pri:23, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:00 IST" name="TC_AOVO_037_Verify_edit_academic_history_fields" finished-at="2025-08-19T16:21:20 IST" duration-ms="19927" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_094_Verify_Upload_columns_by_uploading_invalid_file_type_for_all_documents_sections -->
-        <test-method signature="TC_GQLSP_095_Verify_Upload_columns_by_uploading_more_than_5mb()[pri:71, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:35:45 IST" name="TC_GQLSP_095_Verify_Upload_columns_by_uploading_more_than_5mb" finished-at="2025-08-14T14:36:05 IST" duration-ms="19940" status="PASS">
+        </test-method> <!-- TC_AOVO_037_Verify_edit_academic_history_fields -->
+        <test-method signature="TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data()[pri:24, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:20 IST" name="TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data" finished-at="2025-08-19T16:21:26 IST" duration-ms="6817" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_095_Verify_Upload_columns_by_uploading_more_than_5mb -->
-        <test-method signature="TC_GQLSP_096_Verify_Upload_valid_file_in_all_document_sections_in_document_tab()[pri:72, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:36:05 IST" name="TC_GQLSP_096_Verify_Upload_valid_file_in_all_document_sections_in_document_tab" finished-at="2025-08-14T14:36:25 IST" duration-ms="20107" status="PASS">
+        </test-method> <!-- TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data -->
+        <test-method signature="TC_AOVO_039_Verify_family_details_tab()[pri:25, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:26 IST" name="TC_AOVO_039_Verify_family_details_tab" finished-at="2025-08-19T16:21:30 IST" duration-ms="3668" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_096_Verify_Upload_valid_file_in_all_document_sections_in_document_tab -->
-        <test-method signature="TC_GQLSP_097_Verify_view_all_document_sections_in_document_tab()[pri:73, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:36:25 IST" name="TC_GQLSP_097_Verify_view_all_document_sections_in_document_tab" finished-at="2025-08-14T14:37:04 IST" duration-ms="38795" status="PASS">
+        </test-method> <!-- TC_AOVO_039_Verify_family_details_tab -->
+        <test-method signature="TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data()[pri:26, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:30 IST" name="TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data" finished-at="2025-08-19T16:21:39 IST" duration-ms="9268" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_097_Verify_view_all_document_sections_in_document_tab -->
-        <test-method signature="TC_GQLSP_098_Verify_remove_documents_in_document_tab()[pri:74, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:37:04 IST" name="TC_GQLSP_098_Verify_remove_documents_in_document_tab" finished-at="2025-08-14T14:37:23 IST" duration-ms="19444" status="PASS">
+        </test-method> <!-- TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data -->
+        <test-method signature="TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab()[pri:27, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:39 IST" name="TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab" finished-at="2025-08-19T16:21:45 IST" duration-ms="5260" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_098_Verify_remove_documents_in_document_tab -->
-        <test-method signature="TC_GQLSP_099_Verify_previous_step_in_documents_tab()[pri:75, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:37:23 IST" name="TC_GQLSP_099_Verify_previous_step_in_documents_tab" finished-at="2025-08-14T14:37:26 IST" duration-ms="3150" status="PASS">
+        </test-method> <!-- TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab -->
+        <test-method signature="TC_AOVO_044_Verify_edit_Family_Details()[pri:28, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:45 IST" name="TC_AOVO_044_Verify_edit_Family_Details" finished-at="2025-08-19T16:22:12 IST" duration-ms="27718" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_099_Verify_previous_step_in_documents_tab -->
-        <test-method signature="TC_GQLSP_0100_Verify_go_to_home_in_documents_tab()[pri:76, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:37:26 IST" name="TC_GQLSP_0100_Verify_go_to_home_in_documents_tab" finished-at="2025-08-14T14:37:51 IST" duration-ms="24374" status="PASS">
+        </test-method> <!-- TC_AOVO_044_Verify_edit_Family_Details -->
+        <test-method signature="TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data()[pri:29, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:12 IST" name="TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data" finished-at="2025-08-19T16:22:30 IST" duration-ms="17552" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_0100_Verify_go_to_home_in_documents_tab -->
-        <test-method signature="TC_GQLSP_101_Verify_preview_tab_sections()[pri:77, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:37:51 IST" name="TC_GQLSP_101_Verify_preview_tab_sections" finished-at="2025-08-14T14:37:56 IST" duration-ms="4958" status="PASS">
+        </test-method> <!-- TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data -->
+        <test-method signature="TC_AOVO_046_Verify_Address_Details_tab()[pri:30, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:30 IST" name="TC_AOVO_046_Verify_Address_Details_tab" finished-at="2025-08-19T16:22:33 IST" duration-ms="3288" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_101_Verify_preview_tab_sections -->
-        <test-method signature="TC_GQLSP_108_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section()[pri:78, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:37:56 IST" name="TC_GQLSP_108_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section" finished-at="2025-08-14T14:38:25 IST" duration-ms="29500" status="PASS">
+        </test-method> <!-- TC_AOVO_046_Verify_Address_Details_tab -->
+        <test-method signature="TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted()[pri:31, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:33 IST" name="TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted" finished-at="2025-08-19T16:22:39 IST" duration-ms="5550" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_108_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section -->
-        <test-method signature="TC_GQLSP_109_Verify_submit_button_in_preview_tab()[pri:79, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:38:25 IST" name="TC_GQLSP_109_Verify_submit_button_in_preview_tab" finished-at="2025-08-14T14:39:02 IST" duration-ms="37338" status="PASS">
+        </test-method> <!-- TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted -->
+        <test-method signature="TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab()[pri:32, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:39 IST" name="TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab" finished-at="2025-08-19T16:22:43 IST" duration-ms="4350" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GQLSP_109_Verify_submit_button_in_preview_tab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skitech.testCases.GovtQLateralStudProfTestCases@57bc27f5]" started-at="2025-08-14T14:39:02 IST" name="tearDown" finished-at="2025-08-14T14:39:02 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab -->
+        <test-method signature="TC_AOVO_051_Verify_edit_address_details_fields()[pri:33, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:43 IST" name="TC_AOVO_051_Verify_edit_address_details_fields" finished-at="2025-08-19T16:22:52 IST" duration-ms="9166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_051_Verify_edit_address_details_fields -->
+        <test-method signature="TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data()[pri:34, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:52 IST" name="TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data" finished-at="2025-08-19T16:22:58 IST" duration-ms="5807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data -->
+        <test-method signature="TC_AOVO_053_Verify_Admission_Details_tab()[pri:35, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:58 IST" name="TC_AOVO_053_Verify_Admission_Details_tab" finished-at="2025-08-19T16:23:01 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_053_Verify_Admission_Details_tab -->
+        <test-method signature="TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab()[pri:36, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:01 IST" name="TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab" finished-at="2025-08-19T16:23:07 IST" duration-ms="5511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab -->
+        <test-method signature="TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab()[pri:37, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:07 IST" name="TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab" finished-at="2025-08-19T16:23:12 IST" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab -->
+        <test-method signature="TC_AOVO_058_Verify_edit_admission_details_fields()[pri:38, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:12 IST" name="TC_AOVO_058_Verify_edit_admission_details_fields" finished-at="2025-08-19T16:23:20 IST" duration-ms="7463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_058_Verify_edit_admission_details_fields -->
+        <test-method signature="TC_AOVO_060_Verify_document_tab_sections()[pri:40, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:20 IST" name="TC_AOVO_060_Verify_document_tab_sections" finished-at="2025-08-19T16:23:23 IST" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_060_Verify_document_tab_sections -->
+        <test-method signature="TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification()[pri:41, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:23 IST" name="TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification" finished-at="2025-08-19T16:23:26 IST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification -->
+        <test-method signature="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up()[pri:42, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:26 IST" name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up" finished-at="2025-08-19T16:25:11 IST" duration-ms="105102" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at com.skitech.pageObjectsRepo.AOVOPageObjects.rejectAllDocuments(AOVOPageObjects.java:468)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up(GovtQAOVOTestCase.java:868)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up -->
+        <test-method signature="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up()[pri:43, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:25:11 IST" name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up" finished-at="2025-08-19T16:27:21 IST" duration-ms="129145" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//div[@id='success-toast']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//div[@id='success-toast']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+at com.skitech.pageObjectsRepo.AOVOPageObjects.getDocumentUploadSuccessFailureText(AOVOPageObjects.java:430)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_066_Verify_all_documents_in_document_view_pop_up(GovtQAOVOTestCase.java:902)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_066_Verify_all_documents_in_document_view_pop_up -->
+        <test-method signature="TC_AOVO_068_Verify_finish_verification_without_collecting_documents()[pri:44, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:27:21 IST" name="TC_AOVO_068_Verify_finish_verification_without_collecting_documents" finished-at="2025-08-19T16:27:24 IST" duration-ms="3536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_068_Verify_finish_verification_without_collecting_documents -->
+        <test-method signature="TC_AOVO_069_Verify_collect_column_for_all_documents()[pri:45, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:27:24 IST" name="TC_AOVO_069_Verify_collect_column_for_all_documents" finished-at="2025-08-19T16:28:13 IST" duration-ms="49268" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//div[@id='success-toast']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//div[@id='success-toast']}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+at com.skitech.pageObjectsRepo.StudentsProfilePOM.getSuccessToasterAlert(StudentsProfilePOM.java:1228)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_069_Verify_collect_column_for_all_documents(GovtQAOVOTestCase.java:928)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_069_Verify_collect_column_for_all_documents -->
+        <test-method signature="TC_AOVO_070_Verify_finish_verification_after_collecting_documents()[pri:46, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:28:13 IST" name="TC_AOVO_070_Verify_finish_verification_after_collecting_documents" finished-at="2025-08-19T16:28:16 IST" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_070_Verify_finish_verification_after_collecting_documents -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:28:16 IST" name="tearDown" finished-at="2025-08-19T16:28:16 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.skitech.testCases.GovtQLateralStudProfTestCases -->
+      </class> <!-- com.skitech.testCases.GovtQAOVOTestCase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

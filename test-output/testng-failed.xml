@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.skitech.testCases.GovtQLateralStudProfTestCases">
+      <class name="com.skitech.testCases.GovtQAOVOTestCase">
         <methods>
-          <include name="tearDown"/>
+          <include name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up"/>
           <include name="generateTestData"/>
+          <include name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up"/>
+          <include name="TC_AOVO_069_Verify_collect_column_for_all_documents"/>
           <include name="init"/>
-          <include name="TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file"/>
+          <include name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.skitech.testCases.GovtQLateralStudProfTestCases -->
+      </class> <!-- com.skitech.testCases.GovtQAOVOTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

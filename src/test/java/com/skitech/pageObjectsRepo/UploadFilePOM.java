@@ -40,22 +40,22 @@ public class UploadFilePOM {
 	@FindBy(xpath = "//h2[text()='Add students by template']//following::div[1]//label//div")
 	private List<WebElement> lstQuota;
 	
-	@FindBy(xpath = "//label[text()='Programme']//following::div[1]")
+	@FindBy(xpath = "//label//div[text()='Programme']//following::div[1]")
 	private WebElement dpdProgramme;
 	
-	@FindBy(xpath = "//label[text()='Programme']//following::div[5]//input")
+	@FindBy(xpath = "//label//div[text()='Programme']//following::div[5]//input")
 	private WebElement txtProgramme;
 	
-	@FindBy(xpath = "//label[text()='Admission type']//following::div[1]")
+	@FindBy(xpath = "//label//div[text()='Admission type']//following::div[1]")
 	private WebElement dpdAdmissionType;
 	
-	@FindBy(xpath = "//label[text()='Admission type']//following::div[5]//input[1]")
+	@FindBy(xpath = "//label//div[text()='Admission type']//following::div[5]//input[1]")
 	private WebElement txtAdmissionType;
 	
-	@FindBy(xpath = "(//div[@id='container-undefined'])[3]")
+	@FindBy(xpath = "(//label//div[text()='TNEA category']//following::div[1]")
 	private WebElement dpdTNEACategory;
 		
-	@FindBy(xpath = "(//input[@id='input-undefined'])[4]")
+	@FindBy(xpath = "(//label//div[text()='TNEA category']//following::div[5]//input[1]")
 	private WebElement txtTNEACategory;
 
 	@FindBy(xpath = "//div[@class='inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full pt-6 px-4']")
@@ -71,8 +71,8 @@ public class UploadFilePOM {
 	private WebElement txtInvalidFileType;
 	
 	
-    String validFileGovtQuotaTemplatePath = "D:\\Excel Upload\\GovtQuota.xls";
-    String validFileGovtQuotaLateralTemplatePath = "D:\\Excel Upload\\GovtQuotaLateral.xls";
+    String validFileGovtQuotaTemplatePath = "D:\\GitHub Test Scripts Backup\\selenium-tests\\src\\test\\resources\\GovtQuota.xls";
+    String validFileGovtQuotaLateralTemplatePath = "D:\\GitHub Test Scripts Backup\\selenium-tests\\src\\test\\resources\\GovtQuotaLateral.xls";
 	String invalidFileTemplatePath = "D:\\Excel Upload\\Invalid File Template.xlsx";
 	String invalidFileType = "D:\\Excel Upload\\6 A.M Feedbacks & Issues.txt";
 	String emptyFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Empty.xlsx";
@@ -81,7 +81,7 @@ public class UploadFilePOM {
 	String specialCharactersFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Special Characters.xlsx";
 	String lowerCaseFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Lower Case.xlsx";
 	String mixedCaseFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Mixed Case.xlsx";
-	String validManagementQuotaTemplatePath = "D:\\Excel Upload\\ManagementQuota.xlsx";
+	String validManagementQuotaTemplatePath = "D:\\GitHub Test Scripts Backup\\selenium-tests\\src\\test\\resources\\ManagementQuota.xlsx";
 	
 	
 	

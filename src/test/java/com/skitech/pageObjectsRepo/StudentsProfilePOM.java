@@ -129,7 +129,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//label[text()='Physically challenged ']//following::div[1]//span")
 	private List<WebElement> lstPhysicallyChallengedPersonalDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='If yes, upload physically challenged certificate']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='If yes, upload physically challenged certificate']//following::input[1]")
 	private WebElement btnUploadPhysicallyChallengedCertificatePersonalDetailsTab;
 		
 	@FindBy(xpath = "//div[@id='container-annualIncomeId']")
@@ -138,7 +138,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-annualIncomeId']")
 	private WebElement txtFamilyAnnualIncomePersonalDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='Upload income certificate']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload income certificate']//following::input[1]")
 	private WebElement btnUploadAnnualIncomeCertificatePersonalDetailsTab;
 	
 	@FindBy(xpath = "//button[text()='Save & Next']")
@@ -177,10 +177,10 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//h2")
 	private List<WebElement> lstAcademicDetailsTabSections; 
 	
-	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[3]//label")
+	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[4]//label")
 	private List<WebElement> lstStudiedOutsideIndia;
 	
-	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[5]//label")
+	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[7]//label")
 	private List<WebElement> lstStudiedOutsideTamilnadu;
 	
 	@FindBy(xpath = "//div[@id='container-formState.0.stateId']")
@@ -231,7 +231,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-formState.0.totalMarks']")
 	private WebElement txtSSLCMarksScoredAcademicDetailsTab;
 
-	@FindBy(xpath = "//label[text()='Upload SSLC (10th) marksheet']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload SSLC (10th) marksheet']//following::input[1]")
 	private WebElement uploadSSLCMarkSheetAcademicDetailsTab;
 	
 	@FindBy(xpath = "//div[@id='container-formState.1.stateId']")
@@ -288,7 +288,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-formState.1.totalMarks']")
 	private WebElement txtHSC1MarksScoredAcademicDetailsTab;	
 
-	@FindBy(xpath = "//label[text()='Upload HSC (+1) marksheet']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload HSC (+1) marksheet']//following::input[1]")
 	private WebElement uploadHSC1MarkSheetAcademicDetailsTab;
 	
 	@FindBy(xpath = "//div[@id='container-formState.2.stateId']")
@@ -372,7 +372,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@name='formState.2.optionalSubjectMark']")
 	private WebElement txtOptionalSubjectMarkAcademicDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='Upload HSC (+2) marksheet']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload HSC (+2) marksheet']//following::input[1]")
 	private WebElement uploadHSC2MarkSheetAcademicDetailsTab;
 	
 	//**Lateral POM starts here
@@ -933,7 +933,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-paidDate']")
 	private WebElement txtPaidOnAdmissionDetailsTab;
 		
-	@FindBy(xpath = "//label[text()='Upload consortium application']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload consortium application']//following::input[1]")
 	private WebElement uploadConsortiumApplicationAdmissionDetailsTab;
 	
 	@FindBy(xpath = "//input[@name='scholarTypeId']//..")
@@ -957,10 +957,10 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-TwoWheelerLicenseNumber']")
 	private WebElement txtTwoWheelerLicenseNumberAdmissionDetailsTab;
 
-	@FindBy(xpath = "//label[text()='Upload RC']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload RC']//following::input[1]")
 	private WebElement uploadRCAdmissionDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='Upload License']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload License']//following::input[1]")
 	private WebElement uploadLicenseAdmissionDetailsTab;
 	
 	@FindBy(xpath = "//input[@placeholder='Enter the vehicle number']")

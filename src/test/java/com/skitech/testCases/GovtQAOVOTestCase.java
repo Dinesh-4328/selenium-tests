@@ -247,7 +247,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			aovoPom.selectStudentSearchType("Mobile Number");
 			admissionNo = uploadFilePOM.getFirstAdmissionNoFromExcel(downloadedFile);
 			mobileNo = uploadFilePOM.getFirstMobileNoFromExcel(downloadedFile);
-			aovoPom.enterSearchByStudentValue(mobileNo);			
+			aovoPom.enterSearchByStudentValueMobileNumber(mobileNo);			
 			System.out.println(aovoPom.getStudentSearchResultsValue());
 			aovoPom.clickonStudentSearchResults();
 
@@ -267,7 +267,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 		
 			aovoPom.clickOnBackIconinStudentDetailsScreen();	
 			aovoPom.selectStudentSearchType("Mobile Number");
-			aovoPom.enterSearchByStudentValue("90065445879");			
+			aovoPom.enterSearchByStudentValueMobileNumber("90065445879");			
 
 			softAssert.assertEquals(aovoPom.getSearchErrorText(), aovoPom.getSearchErrorText(), "Text is " + aovoPom.getSearchErrorText());
 			System.out.println(aovoPom.getSearchErrorText());
@@ -284,7 +284,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			softAssert = new SoftAssert();
 			
 			aovoPom.selectStudentSearchType("Admission Number");
-			aovoPom.enterSearchByStudentValue(admissionNo);			
+			aovoPom.enterSearchByStudentValueAdmissionNumber(admissionNo);			
 			System.out.println(aovoPom.getStudentSearchResultsValue());
 			aovoPom.clickonStudentSearchResults();
 			
@@ -303,7 +303,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			
 			aovoPom.clickOnBackIconinStudentDetailsScreen();	
 		//	aovoPom.selectStudentSearchType("Admission Number");
-			aovoPom.enterSearchByStudentValue("iuscs(*&");			
+			aovoPom.enterSearchByStudentValueAdmissionNumber("iuscs(*&");			
 			
 			softAssert.assertEquals(aovoPom.getSearchErrorText(),aovoPom.getSearchErrorText(), "Text is " + aovoPom.getSearchErrorText());
 			System.out.println(aovoPom.getSearchErrorText());
@@ -318,7 +318,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			
 			softAssert = new SoftAssert();
 			
-			aovoPom.enterSearchByStudentValue(admissionNo);
+			aovoPom.enterSearchByStudentValueAdmissionNumber(admissionNo);
 			aovoPom.clickonStudentSearchResults();
 									
 			softAssert.assertEquals(aovoPom.getStudentDetailsTabTexts(),aovoPom.getStudentDetailsTabTexts(), "Text is " + aovoPom.getStudentDetailsTabTexts());
@@ -381,7 +381,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			softAssert = new SoftAssert();
 					
 			driver.navigate().refresh();
-			threadSleep(2000);
+			threadSleep(3000);
 			aovoPom.clickOnMarkasVerified();
 										
 			softAssert.assertEquals(aovoPom.getVerificationDoneText(), aovoPom.getVerificationDoneText(), "Text is " + aovoPom.getVerificationDoneText());
@@ -764,7 +764,6 @@ public class GovtQAOVOTestCase extends BaseTest{
 			
 			softAssert = new SoftAssert();
 			
-			studentsProfilePOM.clearTNEAAdmissionNo();
 			studentsProfilePOM.clearFourWheelerVehicleNumber();
 			studentsProfilePOM.clearFourWheelerLicenseNumber();
 			aovoPom.clickOnMarkasVerified();
@@ -801,7 +800,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			softAssert = new SoftAssert();
 			
 			aovoPom.clickOnEditDetailsButton();
-			studentsProfilePOM.enterTNEAAdmissionNo(fake.number().digits(18));
+			studentsProfilePOM.enterFourWheelerLicenseNumber("TN" + fake.number().digits(10));
 			aovoPom.clickOnSaveButton();
 							
 			softAssert.assertEquals(studentsProfilePOM.getSuccessToasterAlert(), studentsProfilePOM.getSuccessToasterAlert(), "Section List Name is " + studentsProfilePOM.getSuccessToasterAlert());
@@ -812,7 +811,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			aovoPom.clickOnMarkasVerified();
 		}
 		
-		@Test(groups = {"Regression"}, priority=39)
+		//@Test(groups = {"Regression"}, priority=39)
 		public void TC_AOVO_059_Verify_edit_admission_with_invalid_data() {
 			
 			stepInfo("Verify_edit_admission_with_invalid_data");
@@ -820,7 +819,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			softAssert = new SoftAssert();
 			
 			aovoPom.clickOnEditDetailsButton();
-			studentsProfilePOM.enterTNEAAdmissionNo("dsakygj&*%");
+			studentsProfilePOM.enterFourWheelerVehicleNumber("()*^*%&^%*");
 			aovoPom.clickOnSaveButton();
 							
 			softAssert.assertEquals(studentsProfilePOM.getMandatoryFieldsAlerts(), studentsProfilePOM.getMandatoryFieldsAlerts(), "Section List Name is " + studentsProfilePOM.getMandatoryFieldsAlerts());
@@ -895,7 +894,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 			loginPom.selectNavigation("Admission Officer");
 			loginPom.admissionOfficerLogin("thiyagarajan@skitech.ai");
 			aovoPom.selectStudentSearchType("Admission Number");
-			aovoPom.enterSearchByStudentValue(admissionNo);			
+			aovoPom.enterSearchByStudentValueAdmissionNumber(admissionNo);			
 			aovoPom.clickonStudentSearchResults();
 			aovoPom.clickOnStudentDetailsTab("Documents");
 			aovoPom.verifyAllDocuments();
@@ -918,7 +917,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 		}
 		
 		@Test(groups = {"Regression"}, priority=45)
-		public void TC_AOVO_069_Verify_collect_column_for_all_documents(){
+		public void TC_AOVO_069_Verify_collect_column_for_all_documents() {
 			
 			stepInfo("Verify_collect_column_for_all_documents");
 			

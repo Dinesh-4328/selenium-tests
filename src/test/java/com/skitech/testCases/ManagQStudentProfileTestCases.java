@@ -229,6 +229,7 @@ public class ManagQStudentProfileTestCases  extends BaseTest{
 		softAssert.assertAll();
 		
 	}
+	
 	@Test(groups= {"Regression"}, priority=8)
 	public void TC_MQSP_018_Verify_personal_details_tab() {
 		
