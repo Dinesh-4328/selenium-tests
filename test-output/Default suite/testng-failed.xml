@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.skitech.testCases.GovtQPGStudProfTestCases">
         <methods>
           <include name="TC_MQLSP_111_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section"/>
@@ -35,6 +36,19 @@
           <include name="TC_MQLSP_0100_Verify_view_all_document_sections_in_document_tab"/>
         </methods>
       </class> <!-- com.skitech.testCases.GovtQPGStudProfTestCases -->
+=======
+      <class name="com.skitech.testCases.GovtQAOVOTestCase">
+        <methods>
+          <include name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up"/>
+          <include name="generateTestData"/>
+          <include name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up"/>
+          <include name="TC_AOVO_069_Verify_collect_column_for_all_documents"/>
+          <include name="init"/>
+          <include name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.skitech.testCases.GovtQAOVOTestCase -->
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

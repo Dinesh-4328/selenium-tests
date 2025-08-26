@@ -59,8 +59,14 @@ public class AOVOPageObjects {
 		@FindBy(xpath = "//*[@id='root']/div/div[1]//div//span")
 		private List<WebElement> lstDashboardMenus;
 		
-		@FindBy(xpath = "//h2[text()='Search by Student']//following::input[3]")
-		private WebElement txtSearchbyStudent;
+		@FindBy(xpath = "//div[@class='PhoneInputCountry']//following::input[1]")
+		private WebElement txtSearchbyStudentMobileNumber;
+		
+		@FindBy(xpath = "//input[@value='enquiryid']//following::input[2]")
+		private WebElement txtSearchbyStudentAdmissionNo;
+		
+		@FindBy(xpath = "//input[@value='registerno']//following::input[1]")
+		private WebElement txtSearchbyStudentRegisterNo;
 		
 		@FindBy(xpath = "//img[@alt='Back']")
 		private WebElement backIconinStudentDetailsScreen;
@@ -235,10 +241,22 @@ public class AOVOPageObjects {
 			}
 		}
 		
-		public void enterSearchByStudentValue(String searchByStudent) {
-			txtSearchbyStudent.clear();
-			txtSearchbyStudent.sendKeys(searchByStudent + Keys.ENTER);
+		public void enterSearchByStudentValueMobileNumber(String searchByStudentMobileNumber) {
+			txtSearchbyStudentMobileNumber.clear();
+			txtSearchbyStudentMobileNumber.sendKeys(searchByStudentMobileNumber + Keys.ENTER);
 			threadSleep(3000);			
+		}
+		
+		public void enterSearchByStudentValueAdmissionNumber(String searchByStudentAdmissionNumber) {
+			txtSearchbyStudentAdmissionNo.clear();
+			txtSearchbyStudentAdmissionNo.sendKeys(searchByStudentAdmissionNumber + Keys.ENTER);
+			threadSleep(3000);	
+		}
+		
+		public void enterSearchByStudentValueRegisterNumber(String searchByStudentRegisterNumber) {
+			txtSearchbyStudentRegisterNo.clear();
+			txtSearchbyStudentRegisterNo.sendKeys(searchByStudentRegisterNumber + Keys.ENTER);
+			threadSleep(3000);
 		}
 		
 		public String getStudentNameinAOVOStudentDetailsScreen() {

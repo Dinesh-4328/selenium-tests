@@ -11,9 +11,14 @@
     </groups>
    
     <classes>
+<<<<<<< HEAD:testng.xml
    
     
       <class name="com.skitech.testCases.ManagQPGStudProfTestCase"/>
+=======
+      <class name="com.skitech.testCases.GovtQStudentProfileTestCases"/>
+      <class name="com.skitech.testCases.GovtQLateralStudProfTestCases"/>
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087:GovtQStudProf.xml
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

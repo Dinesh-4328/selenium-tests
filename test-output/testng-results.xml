@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="35" passed="8" failed="27" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -38,6 +39,59 @@
         <method signature="GovtQPGStudProfTestCases.TC_MQLSP_104_Verify_preview_tab_sections()[pri:80, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" name="TC_MQLSP_104_Verify_preview_tab_sections" class="com.skitech.testCases.GovtQPGStudProfTestCases"/>
         <method signature="GovtQPGStudProfTestCases.TC_MQLSP_111_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section()[pri:81, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" name="TC_MQLSP_111_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section" class="com.skitech.testCases.GovtQPGStudProfTestCases"/>
         <method signature="GovtQPGStudProfTestCases.TC_MQLSP_112_Verify_submit_button_in_preview_tab()[pri:82, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" name="TC_MQLSP_112_Verify_submit_button_in_preview_tab" class="com.skitech.testCases.GovtQPGStudProfTestCases"/>
+=======
+<testng-results ignored="0" total="45" passed="41" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T16:17:01 IST" name="Default suite" finished-at="2025-08-19T16:28:16 IST" duration-ms="675269">
+    <groups>
+      <group name="Regression">
+        <method signature="GovtQAOVOTestCase.TC_AOVO_005_Verify_sending_6digit_code_with_valid_email()[pri:1, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_005_Verify_sending_6digit_code_with_valid_email" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email()[pri:2, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP()[pri:3, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP()[pri:4, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP()[pri:5, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_010_Verify_Resend_Code_in_signin_screen()[pri:6, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_010_Verify_Resend_Code_in_signin_screen" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_011_Verify_GoBack_in_Signin_Screen()[pri:7, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_011_Verify_GoBack_in_Signin_Screen" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_013_Verify_After_signin_screen_menus()[pri:8, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_013_Verify_After_signin_screen_menus" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_015_Verify_Search_with_valid_Mobile_No()[pri:9, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_015_Verify_Search_with_valid_Mobile_No" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_016_Verify_Search_with_invalid_Mobile_No()[pri:10, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_016_Verify_Search_with_invalid_Mobile_No" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_017_Verify_Search_with_valid_admission_no()[pri:11, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_017_Verify_Search_with_valid_admission_no" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_018_Verify_Search_with_invalid_admission_no()[pri:12, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_018_Verify_Search_with_invalid_admission_no" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results()[pri:13, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_019_Verify_Overview_tab()[pri:14, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_019_Verify_Overview_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_025_Verify_Student_Information_tab()[pri:15, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_025_Verify_Student_Information_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab()[pri:16, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab()[pri:17, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_030_Verify_Edit_Student_Information_details()[pri:18, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_030_Verify_Edit_Student_Information_details" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data()[pri:19, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_032_Verify_Academic_History_tab()[pri:20, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_032_Verify_Academic_History_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data()[pri:21, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab()[pri:22, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_037_Verify_edit_academic_history_fields()[pri:23, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_037_Verify_edit_academic_history_fields" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data()[pri:24, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_039_Verify_family_details_tab()[pri:25, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_039_Verify_family_details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data()[pri:26, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab()[pri:27, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_044_Verify_edit_Family_Details()[pri:28, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_044_Verify_edit_Family_Details" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data()[pri:29, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_046_Verify_Address_Details_tab()[pri:30, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_046_Verify_Address_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted()[pri:31, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab()[pri:32, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_051_Verify_edit_address_details_fields()[pri:33, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_051_Verify_edit_address_details_fields" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data()[pri:34, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_053_Verify_Admission_Details_tab()[pri:35, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_053_Verify_Admission_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab()[pri:36, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab()[pri:37, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_058_Verify_edit_admission_details_fields()[pri:38, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_058_Verify_edit_admission_details_fields" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_060_Verify_document_tab_sections()[pri:40, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_060_Verify_document_tab_sections" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification()[pri:41, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up()[pri:42, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_066_Verify_all_documents_in_document_view_pop_up()[pri:43, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_068_Verify_finish_verification_without_collecting_documents()[pri:44, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_068_Verify_finish_verification_without_collecting_documents" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_069_Verify_collect_column_for_all_documents()[pri:45, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_069_Verify_collect_column_for_all_documents" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+        <method signature="GovtQAOVOTestCase.TC_AOVO_070_Verify_finish_verification_after_collecting_documents()[pri:46, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" name="TC_AOVO_070_Verify_finish_verification_after_collecting_documents" class="com.skitech.testCases.GovtQAOVOTestCase"/>
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
       </group> <!-- Regression -->
       <group name="TC003">
         <method signature="GovtQPGStudProfTestCases.TC_MQLSP_013_Verify_student_profile_signin_with_invalid_OTP()[pri:3, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" name="TC_MQLSP_013_Verify_student_profile_signin_with_invalid_OTP" class="com.skitech.testCases.GovtQPGStudProfTestCases"/>
@@ -47,6 +101,7 @@
         <method signature="GovtQPGStudProfTestCases.TC_MQLSP_030_Verify_academic_details_tab()[pri:16, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" name="TC_MQLSP_030_Verify_academic_details_tab" class="com.skitech.testCases.GovtQPGStudProfTestCases"/>
       </group> <!-- Smoke -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-08-25T16:29:26 IST" name="Default test" finished-at="2025-08-25T16:31:10 IST" duration-ms="103304">
       <class name="com.skitech.testCases.GovtQPGStudProfTestCases">
         <test-method is-config="true" signature="init()[pri:0, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" started-at="2025-08-25T16:29:26 IST" name="init" finished-at="2025-08-25T16:29:29 IST" duration-ms="2843" status="PASS">
@@ -58,10 +113,92 @@
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Welcome')]"}
   (Session info: chrome=139.0.7258.139)
+=======
+    <test started-at="2025-08-19T16:17:01 IST" name="Default test" finished-at="2025-08-19T16:28:16 IST" duration-ms="675269">
+      <class name="com.skitech.testCases.GovtQAOVOTestCase">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:01 IST" name="generateTestData" finished-at="2025-08-19T16:17:01 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestData -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:01 IST" name="init" finished-at="2025-08-19T16:17:03 IST" duration-ms="1487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC_AOVO_005_Verify_sending_6digit_code_with_valid_email()[pri:1, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:03 IST" name="TC_AOVO_005_Verify_sending_6digit_code_with_valid_email" finished-at="2025-08-19T16:17:15 IST" duration-ms="12599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_005_Verify_sending_6digit_code_with_valid_email -->
+        <test-method signature="TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email()[pri:2, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:15 IST" name="TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email" finished-at="2025-08-19T16:17:22 IST" duration-ms="6388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_006_Verify_sending_6digit_code_fails_for_invalid_email -->
+        <test-method signature="TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP()[pri:3, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:22 IST" name="TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP" finished-at="2025-08-19T16:17:31 IST" duration-ms="9475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_007_Verify_AOVO_account_signin_with_valid_OTP -->
+        <test-method signature="TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP()[pri:4, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:31 IST" name="TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP" finished-at="2025-08-19T16:17:44 IST" duration-ms="12890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_008_Verify_AOVO_account_signin_with_invalid_OTP -->
+        <test-method signature="TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP()[pri:5, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:17:44 IST" name="TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP" finished-at="2025-08-19T16:18:57 IST" duration-ms="72428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_009_Verify_AOVO_account_signin_with_expired_OTP -->
+        <test-method signature="TC_AOVO_010_Verify_Resend_Code_in_signin_screen()[pri:6, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:18:57 IST" name="TC_AOVO_010_Verify_Resend_Code_in_signin_screen" finished-at="2025-08-19T16:19:10 IST" duration-ms="13298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_010_Verify_Resend_Code_in_signin_screen -->
+        <test-method signature="TC_AOVO_011_Verify_GoBack_in_Signin_Screen()[pri:7, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:10 IST" name="TC_AOVO_011_Verify_GoBack_in_Signin_Screen" finished-at="2025-08-19T16:19:22 IST" duration-ms="12627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_011_Verify_GoBack_in_Signin_Screen -->
+        <test-method signature="TC_AOVO_013_Verify_After_signin_screen_menus()[pri:8, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:22 IST" name="TC_AOVO_013_Verify_After_signin_screen_menus" finished-at="2025-08-19T16:19:34 IST" duration-ms="11341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_013_Verify_After_signin_screen_menus -->
+        <test-method signature="TC_AOVO_015_Verify_Search_with_valid_Mobile_No()[pri:9, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:34 IST" name="TC_AOVO_015_Verify_Search_with_valid_Mobile_No" finished-at="2025-08-19T16:19:42 IST" duration-ms="7746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_015_Verify_Search_with_valid_Mobile_No -->
+        <test-method signature="TC_AOVO_016_Verify_Search_with_invalid_Mobile_No()[pri:10, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:42 IST" name="TC_AOVO_016_Verify_Search_with_invalid_Mobile_No" finished-at="2025-08-19T16:19:49 IST" duration-ms="7466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_016_Verify_Search_with_invalid_Mobile_No -->
+        <test-method signature="TC_AOVO_017_Verify_Search_with_valid_admission_no()[pri:11, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:49 IST" name="TC_AOVO_017_Verify_Search_with_valid_admission_no" finished-at="2025-08-19T16:19:57 IST" duration-ms="7546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_017_Verify_Search_with_valid_admission_no -->
+        <test-method signature="TC_AOVO_018_Verify_Search_with_invalid_admission_no()[pri:12, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:19:57 IST" name="TC_AOVO_018_Verify_Search_with_invalid_admission_no" finished-at="2025-08-19T16:20:03 IST" duration-ms="6270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_018_Verify_Search_with_invalid_admission_no -->
+        <test-method signature="TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results()[pri:13, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:03 IST" name="TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results" finished-at="2025-08-19T16:20:09 IST" duration-ms="6431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_018_Verify_student_details_screen_after_clicking_on_search_results -->
+        <test-method signature="TC_AOVO_019_Verify_Overview_tab()[pri:14, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:09 IST" name="TC_AOVO_019_Verify_Overview_tab" finished-at="2025-08-19T16:20:09 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_019_Verify_Overview_tab -->
+        <test-method signature="TC_AOVO_025_Verify_Student_Information_tab()[pri:15, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:09 IST" name="TC_AOVO_025_Verify_Student_Information_tab" finished-at="2025-08-19T16:20:13 IST" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_025_Verify_Student_Information_tab -->
+        <test-method signature="TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab()[pri:16, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:13 IST" name="TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab" finished-at="2025-08-19T16:20:18 IST" duration-ms="5685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_028_Verify_Mark_as_Verified_while_leaving_mandatory_field_in_Student_Information_tab -->
+        <test-method signature="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab()[pri:17, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:18 IST" name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab" finished-at="2025-08-19T16:20:21 IST" duration-ms="2183" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Mark as Verified']"}
+  (Session info: chrome=138.0.7204.184)
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-38596O6', ip: '172.21.1.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
 *** Element info: {Using=xpath, value=//h3[contains(text(), 'Welcome')]}]]>
@@ -69,13 +206,28 @@ Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h3[contains(text(), 'Welcome')]"}
   (Session info: chrome=139.0.7258.139)
+=======
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[text()='Mark as Verified']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Mark as Verified']"}
+  (Session info: chrome=138.0.7204.184)
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-38596O6', ip: '172.21.1.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
 *** Element info: {Using=xpath, value=//h3[contains(text(), 'Welcome')]}
+=======
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[text()='Mark as Verified']}
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -91,6 +243,7 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<<<<<<< HEAD
 at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
 at com.skitech.pageObjectsRepo.LoginPageObjects.getWelcomeEmail(LoginPageObjects.java:166)
 at com.skitech.testCases.GovtQPGStudProfTestCases.TC_MQLSP_011_Verify_sending_6_digit_code_with_valid_email(GovtQPGStudProfTestCases.java:114)
@@ -167,6 +320,11 @@ at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invok
 at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
 at com.skitech.pageObjectsRepo.LoginPageObjects.clickOnVerifyOTPandSigninButton(LoginPageObjects.java:139)
 at com.skitech.testCases.GovtQPGStudProfTestCases.TC_MQLSP_013_Verify_student_profile_signin_with_invalid_OTP(GovtQPGStudProfTestCases.java:153)
+=======
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at com.skitech.pageObjectsRepo.AOVOPageObjects.clickOnMarkasVerified(AOVOPageObjects.java:367)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab(GovtQAOVOTestCase.java:385)
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
@@ -198,6 +356,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- TC_MQLSP_013_Verify_student_profile_signin_with_invalid_OTP -->
         <test-method signature="TC_MQLSP_017_Verify_student_profile_account_signin_with_valid_OTP()[pri:7, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" started-at="2025-08-25T16:30:07 IST" name="TC_MQLSP_017_Verify_student_profile_account_signin_with_valid_OTP" finished-at="2025-08-25T16:30:17 IST" duration-ms="10471" status="PASS">
           <reporter-output>
@@ -254,6 +413,124 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
 *** Element info: {Using=xpath, value=//input[@placeholder='Enter the vehicle number']}
+=======
+        </test-method> <!-- TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab -->
+        <test-method signature="TC_AOVO_030_Verify_Edit_Student_Information_details()[pri:18, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:21 IST" name="TC_AOVO_030_Verify_Edit_Student_Information_details" finished-at="2025-08-19T16:20:34 IST" duration-ms="13321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_030_Verify_Edit_Student_Information_details -->
+        <test-method signature="TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data()[pri:19, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:34 IST" name="TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data" finished-at="2025-08-19T16:20:37 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_031_Verify_Edit_Student_Information_details_with_invalid_data -->
+        <test-method signature="TC_AOVO_032_Verify_Academic_History_tab()[pri:20, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:37 IST" name="TC_AOVO_032_Verify_Academic_History_tab" finished-at="2025-08-19T16:20:40 IST" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_032_Verify_Academic_History_tab -->
+        <test-method signature="TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data()[pri:21, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:40 IST" name="TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data" finished-at="2025-08-19T16:20:54 IST" duration-ms="13832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_035_Verify_Mark_as_Verified_in_Academic_History_tab_with_incompleted_data -->
+        <test-method signature="TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab()[pri:22, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:20:54 IST" name="TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab" finished-at="2025-08-19T16:21:00 IST" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_036_Verify_Mark_as_Verified_in_Academic_History_tab -->
+        <test-method signature="TC_AOVO_037_Verify_edit_academic_history_fields()[pri:23, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:00 IST" name="TC_AOVO_037_Verify_edit_academic_history_fields" finished-at="2025-08-19T16:21:20 IST" duration-ms="19927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_037_Verify_edit_academic_history_fields -->
+        <test-method signature="TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data()[pri:24, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:20 IST" name="TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data" finished-at="2025-08-19T16:21:26 IST" duration-ms="6817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_038_Verify_edit_academic_history_fields_with_invalid_data -->
+        <test-method signature="TC_AOVO_039_Verify_family_details_tab()[pri:25, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:26 IST" name="TC_AOVO_039_Verify_family_details_tab" finished-at="2025-08-19T16:21:30 IST" duration-ms="3668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_039_Verify_family_details_tab -->
+        <test-method signature="TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data()[pri:26, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:30 IST" name="TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data" finished-at="2025-08-19T16:21:39 IST" duration-ms="9268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_042_Verify_Mark_as_Verified_in_Family_Details_tab_with_incompleted_data -->
+        <test-method signature="TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab()[pri:27, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:39 IST" name="TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab" finished-at="2025-08-19T16:21:45 IST" duration-ms="5260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_043_Verify_Mark_as_Verified_in_Family_Details_tab -->
+        <test-method signature="TC_AOVO_044_Verify_edit_Family_Details()[pri:28, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:21:45 IST" name="TC_AOVO_044_Verify_edit_Family_Details" finished-at="2025-08-19T16:22:12 IST" duration-ms="27718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_044_Verify_edit_Family_Details -->
+        <test-method signature="TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data()[pri:29, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:12 IST" name="TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data" finished-at="2025-08-19T16:22:30 IST" duration-ms="17552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_045_Verify_edit_family_details_fields_with_invalid_data -->
+        <test-method signature="TC_AOVO_046_Verify_Address_Details_tab()[pri:30, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:30 IST" name="TC_AOVO_046_Verify_Address_Details_tab" finished-at="2025-08-19T16:22:33 IST" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_046_Verify_Address_Details_tab -->
+        <test-method signature="TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted()[pri:31, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:33 IST" name="TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted" finished-at="2025-08-19T16:22:39 IST" duration-ms="5550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_049_Verify_Mark_as_Verified_in_Address_Details_tab_with_incompleted -->
+        <test-method signature="TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab()[pri:32, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:39 IST" name="TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab" finished-at="2025-08-19T16:22:43 IST" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_050_Verify_Mark_as_Verified_in_Address_Details_tab -->
+        <test-method signature="TC_AOVO_051_Verify_edit_address_details_fields()[pri:33, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:43 IST" name="TC_AOVO_051_Verify_edit_address_details_fields" finished-at="2025-08-19T16:22:52 IST" duration-ms="9166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_051_Verify_edit_address_details_fields -->
+        <test-method signature="TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data()[pri:34, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:52 IST" name="TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data" finished-at="2025-08-19T16:22:58 IST" duration-ms="5807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_052_Verify_edit_address_details_fields_with_invalid_data -->
+        <test-method signature="TC_AOVO_053_Verify_Admission_Details_tab()[pri:35, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:22:58 IST" name="TC_AOVO_053_Verify_Admission_Details_tab" finished-at="2025-08-19T16:23:01 IST" duration-ms="3238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_053_Verify_Admission_Details_tab -->
+        <test-method signature="TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab()[pri:36, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:01 IST" name="TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab" finished-at="2025-08-19T16:23:07 IST" duration-ms="5511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_056_Verify_mark_as_verified_with_incompleted_data_in_admission_details_tab -->
+        <test-method signature="TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab()[pri:37, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:07 IST" name="TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab" finished-at="2025-08-19T16:23:12 IST" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_057_Verify_Mark_as_Verified_in_Admission_Details_tab -->
+        <test-method signature="TC_AOVO_058_Verify_edit_admission_details_fields()[pri:38, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:12 IST" name="TC_AOVO_058_Verify_edit_admission_details_fields" finished-at="2025-08-19T16:23:20 IST" duration-ms="7463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_058_Verify_edit_admission_details_fields -->
+        <test-method signature="TC_AOVO_060_Verify_document_tab_sections()[pri:40, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:20 IST" name="TC_AOVO_060_Verify_document_tab_sections" finished-at="2025-08-19T16:23:23 IST" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_060_Verify_document_tab_sections -->
+        <test-method signature="TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification()[pri:41, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:23 IST" name="TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification" finished-at="2025-08-19T16:23:26 IST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_062_Verify_finish_verification_in_documents_tab_without_completing_the_verification -->
+        <test-method signature="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up()[pri:42, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:23:26 IST" name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up" finished-at="2025-08-19T16:25:11 IST" duration-ms="105102" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+*** Element info: {Using=xpath, value=//button[@class='absolute1 top-3 right-4 text-gray-500 text-xl']}
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -269,9 +546,15 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<<<<<<< HEAD
 at jdk.proxy2/jdk.proxy2.$Proxy11.clear(Unknown Source)
 at com.skitech.pageObjectsRepo.StudentsProfilePOM.enterFourWheelerVehicleNumber(StudentsProfilePOM.java:2735)
 at com.skitech.testCases.GovtQPGStudProfTestCases.TC_MQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler(GovtQPGStudProfTestCases.java:1466)
+=======
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at com.skitech.pageObjectsRepo.AOVOPageObjects.rejectAllDocuments(AOVOPageObjects.java:468)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up(GovtQAOVOTestCase.java:868)
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
@@ -303,6 +586,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- TC_MQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler -->
         <test-method signature="TC_MQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents()[pri:59, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" started-at="2025-08-25T16:30:46 IST" name="TC_MQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents" finished-at="2025-08-25T16:30:53 IST" duration-ms="6359" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
@@ -315,10 +599,25 @@ System info: host: 'DESKTOP-38596O6', ip: '172.21.1.185', os.name: 'Windows 11',
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
+=======
+        </test-method> <!-- TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up -->
+        <test-method signature="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up()[pri:43, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:25:11 IST" name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up" finished-at="2025-08-19T16:27:21 IST" duration-ms="129145" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 *** Element info: {Using=xpath, value=//div[@id='success-toast']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+<<<<<<< HEAD
   (Session info: chrome=139.0.7258.139)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -326,6 +625,15 @@ System info: host: 'DESKTOP-38596O6', ip: '172.21.1.185', os.name: 'Windows 11',
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
+=======
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 *** Element info: {Using=xpath, value=//div[@id='success-toast']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -342,9 +650,15 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<<<<<<< HEAD
 at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
 at com.skitech.pageObjectsRepo.StudentsProfilePOM.getSuccessToasterAlert(StudentsProfilePOM.java:1402)
 at com.skitech.testCases.GovtQPGStudProfTestCases.TC_MQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents(GovtQPGStudProfTestCases.java:1488)
+=======
+at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+at com.skitech.pageObjectsRepo.AOVOPageObjects.getDocumentUploadSuccessFailureText(AOVOPageObjects.java:430)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_066_Verify_all_documents_in_document_view_pop_up(GovtQAOVOTestCase.java:902)
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
@@ -376,6 +690,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- TC_MQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents -->
         <test-method signature="TC_MQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport()[pri:60, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" started-at="2025-08-25T16:30:53 IST" name="TC_MQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport" finished-at="2025-08-25T16:30:59 IST" duration-ms="6340" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
@@ -388,10 +703,29 @@ System info: host: 'DESKTOP-38596O6', ip: '172.21.1.185', os.name: 'Windows 11',
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
+=======
+        </test-method> <!-- TC_AOVO_066_Verify_all_documents_in_document_view_pop_up -->
+        <test-method signature="TC_AOVO_068_Verify_finish_verification_without_collecting_documents()[pri:44, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:27:21 IST" name="TC_AOVO_068_Verify_finish_verification_without_collecting_documents" finished-at="2025-08-19T16:27:24 IST" duration-ms="3536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_068_Verify_finish_verification_without_collecting_documents -->
+        <test-method signature="TC_AOVO_069_Verify_collect_column_for_all_documents()[pri:45, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:27:24 IST" name="TC_AOVO_069_Verify_collect_column_for_all_documents" finished-at="2025-08-19T16:28:13 IST" duration-ms="49268" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 *** Element info: {Using=xpath, value=//div[@id='success-toast']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='success-toast']"}
+<<<<<<< HEAD
   (Session info: chrome=139.0.7258.139)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -399,6 +733,15 @@ System info: host: 'DESKTOP-38596O6', ip: '172.21.1.185', os.name: 'Windows 11',
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.138 (884e54ea8d4..., userDataDir: C:\Users\SIVACH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50028}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: ca55cd68afcb9c373c8f36e9c6dd8a66
+=======
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-PH7EFI9', ip: '172.21.1.193', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DineshM\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e3d9103d5afa187cdbaa3df4a422905
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 *** Element info: {Using=xpath, value=//div[@id='success-toast']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -415,9 +758,15 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+<<<<<<< HEAD
 at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
 at com.skitech.pageObjectsRepo.StudentsProfilePOM.getSuccessToasterAlert(StudentsProfilePOM.java:1402)
 at com.skitech.testCases.GovtQPGStudProfTestCases.TC_MQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport(GovtQPGStudProfTestCases.java:1506)
+=======
+at jdk.proxy2/jdk.proxy2.$Proxy12.getText(Unknown Source)
+at com.skitech.pageObjectsRepo.StudentsProfilePOM.getSuccessToasterAlert(StudentsProfilePOM.java:1228)
+at com.skitech.testCases.GovtQAOVOTestCase.TC_AOVO_069_Verify_collect_column_for_all_documents(GovtQAOVOTestCase.java:928)
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
@@ -449,6 +798,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- TC_MQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport -->
         <test-method signature="TC_MQLSP_081_Verify_upload_consortium_application_with_invalid_file_type()[pri:61, instance:com.skitech.testCases.GovtQPGStudProfTestCases@4b2bac3f]" started-at="2025-08-25T16:30:59 IST" name="TC_MQLSP_081_Verify_upload_consortium_application_with_invalid_file_type" finished-at="2025-08-25T16:31:02 IST" duration-ms="3141" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
@@ -1998,6 +2348,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- TC_MQLSP_112_Verify_submit_button_in_preview_tab -->
       </class> <!-- com.skitech.testCases.GovtQPGStudProfTestCases -->
+=======
+        </test-method> <!-- TC_AOVO_069_Verify_collect_column_for_all_documents -->
+        <test-method signature="TC_AOVO_070_Verify_finish_verification_after_collecting_documents()[pri:46, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:28:13 IST" name="TC_AOVO_070_Verify_finish_verification_after_collecting_documents" finished-at="2025-08-19T16:28:16 IST" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_AOVO_070_Verify_finish_verification_after_collecting_documents -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skitech.testCases.GovtQAOVOTestCase@6c4906d3]" started-at="2025-08-19T16:28:16 IST" name="tearDown" finished-at="2025-08-19T16:28:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.skitech.testCases.GovtQAOVOTestCase -->
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

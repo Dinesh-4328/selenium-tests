@@ -229,6 +229,7 @@ public class ManagQStudentProfileTestCases  extends BaseClass{
 		softAssert.assertAll();
 		
 	}
+	
 	@Test(groups= {"Regression"}, priority=8)
 	public void TC_MQSP_018_Verify_personal_details_tab() {
 		
@@ -628,7 +629,7 @@ public class ManagQStudentProfileTestCases  extends BaseClass{
 		studentsProfilePOM.selectFatherAnnualIncome("₹6,00,001 – ₹8,00,000");
 		studentsProfilePOM.enterFatherWorkPlaceorCompany(fake.company().name());
 		studentsProfilePOM.enterFatherEducationalQaulification(fake.educator().toString());
-		studentsProfilePOM.enterMotherFullName(fake.name().firstName());
+		studentsProfilePOM.enterMotherFullName(fake.name().fullName());
 		studentsProfilePOM.enterMotherAadharNumber(fake.number().digits(12));
 		studentsProfilePOM.selectMotherResidenceStatus("Resident");
 		studentsProfilePOM.enterMotherMobileNumber("9"+fake.number().digits(9));
@@ -990,6 +991,7 @@ public class ManagQStudentProfileTestCases  extends BaseClass{
 		studentsProfilePOM.enterCommunicationAddressLine1(fake.address().streetAddress());
 		studentsProfilePOM.selectCommunicationAddressCity("Coimbatore");
 		studentsProfilePOM.enterCommunicationAddressPincode("6" + fake.number().digits(5));
+		studentsProfilePOM.clickOnGuardianorPrivateAddressOption("Yes");
 		studentsProfilePOM.selectGuardianAddressCountry("India");
 		studentsProfilePOM.selectGuardianAddressState("Tamil Nadu");
 		studentsProfilePOM.enterGuardianAddressLine1(fake.address().streetAddress());

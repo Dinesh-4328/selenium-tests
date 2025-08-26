@@ -52,10 +52,17 @@ public class UploadFilePOM {
 	@FindBy(xpath = "//label//div[text()='Admission type']//following::div[5]//input[1]")
 	private WebElement txtAdmissionType;
 	
+<<<<<<< HEAD
 	@FindBy(xpath = "(//div[@class='react-select__input-container css-19bb58m'])[3]")
 	private WebElement dpdTNEACategory;
 		
 	@FindBy(xpath = "(//input[contains(@class,'react-select__input')])[3]")
+=======
+	@FindBy(xpath = "(//label//div[text()='TNEA category']//following::div[1]")
+	private WebElement dpdTNEACategory;
+		
+	@FindBy(xpath = "(//label//div[text()='TNEA category']//following::div[5]//input[1]")
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 	private WebElement txtTNEACategory;
 
 	@FindBy(xpath = "//div[@class='inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full pt-6 px-4']")
@@ -71,8 +78,13 @@ public class UploadFilePOM {
 	private WebElement txtInvalidFileType;
 	
 	
+<<<<<<< HEAD
     String validFileGovtQuotaPGTemplatePath = "C:\\Users\\SivachandranK\\Desktop\\Gov1.xls";
     String validFileGovtQuotaLateralTemplatePath = "D:\\Excel Upload\\GovtQuotaLateral.xls";
+=======
+    String validFileGovtQuotaTemplatePath = "D:\\GitHub Test Scripts Backup\\selenium-tests\\src\\test\\resources\\GovtQuota.xls";
+    String validFileGovtQuotaLateralTemplatePath = "D:\\GitHub Test Scripts Backup\\selenium-tests\\src\\test\\resources\\GovtQuotaLateral.xls";
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 	String invalidFileTemplatePath = "D:\\Excel Upload\\Invalid File Template.xlsx";
 	String invalidFileType = "D:\\Excel Upload\\6 A.M Feedbacks & Issues.txt";
 	String emptyFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Empty.xlsx";
@@ -81,7 +93,11 @@ public class UploadFilePOM {
 	String specialCharactersFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Special Characters.xlsx";
 	String lowerCaseFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Lower Case.xlsx";
 	String mixedCaseFileTemplatePath = "D:\\Excel Upload\\ERP-Upload-File-Template - Mixed Case.xlsx";
+<<<<<<< HEAD
 	String validManagementQuotaTemplatePath = "C:\\Users\\SivachandranK\\Desktop\\ManagementQuota PG.xlsx";
+=======
+	String validManagementQuotaTemplatePath = "D:\\GitHub Test Scripts Backup\\selenium-tests\\src\\test\\resources\\ManagementQuota.xlsx";
+>>>>>>> f204c5758191a0745d8da85080c0b8d578972087
 	
 	
 	
