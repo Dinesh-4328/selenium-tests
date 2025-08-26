@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class StudentsProfilePOM {
+public class StudentsProfilePOM<CollegeDropdown> {
 
 	WebDriver driver;
 	JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -129,7 +129,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//label[text()='Physically challenged ']//following::div[1]//span")
 	private List<WebElement> lstPhysicallyChallengedPersonalDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='If yes, upload physically challenged certificate']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='If yes, upload physically challenged certificate']//following::input[1]")
 	private WebElement btnUploadPhysicallyChallengedCertificatePersonalDetailsTab;
 		
 	@FindBy(xpath = "//div[@id='container-annualIncomeId']")
@@ -138,7 +138,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-annualIncomeId']")
 	private WebElement txtFamilyAnnualIncomePersonalDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='Upload income certificate']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload income certificate']//following::input[1]")
 	private WebElement btnUploadAnnualIncomeCertificatePersonalDetailsTab;
 	
 	@FindBy(xpath = "//button[text()='Save & Next']")
@@ -177,10 +177,10 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//h2")
 	private List<WebElement> lstAcademicDetailsTabSections; 
 	
-	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[3]//label")
+	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[4]//label")
 	private List<WebElement> lstStudiedOutsideIndia;
 	
-	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[5]//label")
+	@FindBy(xpath = "//h3[text()='Place of Schooling (KG to 12th / HSC)']//following::div[7]//label")
 	private List<WebElement> lstStudiedOutsideTamilnadu;
 	
 	@FindBy(xpath = "//div[@id='container-formState.0.stateId']")
@@ -231,7 +231,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-formState.0.totalMarks']")
 	private WebElement txtSSLCMarksScoredAcademicDetailsTab;
 
-	@FindBy(xpath = "//label[text()='Upload SSLC (10th) marksheet']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload SSLC (10th) marksheet']//following::input[1]")
 	private WebElement uploadSSLCMarkSheetAcademicDetailsTab;
 	
 	@FindBy(xpath = "//div[@id='container-formState.1.stateId']")
@@ -288,7 +288,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-formState.1.totalMarks']")
 	private WebElement txtHSC1MarksScoredAcademicDetailsTab;	
 
-	@FindBy(xpath = "//label[text()='Upload HSC (+1) marksheet']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload HSC (+1) marksheet']//following::input[1]")
 	private WebElement uploadHSC1MarkSheetAcademicDetailsTab;
 	
 	@FindBy(xpath = "//div[@id='container-formState.2.stateId']")
@@ -372,7 +372,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@name='formState.2.optionalSubjectMark']")
 	private WebElement txtOptionalSubjectMarkAcademicDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='Upload HSC (+2) marksheet']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload HSC (+2) marksheet']//following::input[1]")
 	private WebElement uploadHSC2MarkSheetAcademicDetailsTab;
 	
 	//**Lateral POM starts here
@@ -381,6 +381,10 @@ public class StudentsProfilePOM {
 	
 	@FindBy(xpath = "(//input[@type='checkbox'])[2]")
 	private WebElement chkBoxSelectifyouhavecompletedHSC2AcademicDetailsLateral;
+	
+	@FindBy(xpath="//input[@class='ui-checkbox mr-3']")	
+	private WebElement chkBoxSelectifyouhavecompletedDiplomaAcademicDetailsLateral;
+	
 	
 	@FindBy(xpath = "//div[@id='container-colleges.0.countryId']")
 	private WebElement dpdCountryAcademicDetailsLateral;
@@ -509,7 +513,7 @@ public class StudentsProfilePOM {
 	private WebElement txtTotalMarksOverallTotalAcademicDetailsLateral;
 	
 	@FindBy(xpath = "//input[@id='input-colleges.0.overallPercentage']")
-	private WebElement txtOverAllPercentageAcademicDetailsLateral;
+	private static WebElement txtOverAllPercentageAcademicDetailsLateral;
 	
 	//** LateralPOM ends Here
 			
@@ -933,7 +937,7 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-paidDate']")
 	private WebElement txtPaidOnAdmissionDetailsTab;
 		
-	@FindBy(xpath = "//label[text()='Upload consortium application']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload consortium application']//following::input[1]")
 	private WebElement uploadConsortiumApplicationAdmissionDetailsTab;
 	
 	@FindBy(xpath = "//input[@name='scholarTypeId']//..")
@@ -957,10 +961,10 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//input[@id='input-TwoWheelerLicenseNumber']")
 	private WebElement txtTwoWheelerLicenseNumberAdmissionDetailsTab;
 
-	@FindBy(xpath = "//label[text()='Upload RC']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload RC']//following::input[1]")
 	private WebElement uploadRCAdmissionDetailsTab;
 	
-	@FindBy(xpath = "//label[text()='Upload License']//following::input[1]")
+	@FindBy(xpath = "//label//div[text()='Upload License']//following::input[1]")
 	private WebElement uploadLicenseAdmissionDetailsTab;
 	
 	@FindBy(xpath = "//input[@placeholder='Enter the vehicle number']")
@@ -1020,19 +1024,189 @@ public class StudentsProfilePOM {
 	@FindBy(xpath = "//div[text()='Admission no.']//following::div[1]")
 	private WebElement txtAdmissionNo;
 	
+	//**Lateral POM Methods ends here
+	
+	
+	// ** PG start here
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.courseStudiedId']")
+		private WebElement DegreeDropdown;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.countryId']")
+		private WebElement CountryDropdown;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.stateId']")
+		private WebElement StateDropdown;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.courseTypeId']")
+		private  WebElement CoursetypeDropdown;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.boardOfStudyId']//div[@class='react-select__input-container css-19bb58m']")
+		private static WebElement BoardofstudyDropdown;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.collegeId']")
+		private static WebElement CollegeDropdown;
+		
+
+		@FindBy(xpath="//input[@id='input-colleges.1.collegeOthers']")
+		private static WebElement Ifcollegenotlistedn;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.departmentId']")
+		private static WebElement BranchDepartment;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.month']")
+		private static WebElement MonthofpassingDropdown;
+		
+		@FindBy(xpath="//div[@id='container-colleges.1.yearOfPassing']")
+		private static WebElement Yearofpassingdropdown;
+
+		@FindBy(xpath="//input[@id='input-colleges.1.umisNo']")
+		private static WebElement UMISno;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.registerNumber']")
+		private static WebElement Examregisterno;
+		
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester1ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem1AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester2ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem2AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester3ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem3AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester4ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem4AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester5ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem5AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester6ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem6AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester7ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem7AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester8ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem8AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester9ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem9AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester10ObtainedMark']")
+		private static WebElement PGtxtMarksScoredSem10AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.overallScoredMarks']")
+		private static WebElement PGtxtMarksScoredOverallTotalAcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester1TotalMark']")
+		private static WebElement PGtxtTotalMarksSem1AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester2TotalMark']")
+		private static WebElement PGtxtTotalMarksSem2AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester3TotalMark']")
+		private static WebElement PGtxtTotalMarksSem3AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester4TotalMark']")
+		private static WebElement PGtxtTotalMarksSem4AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester5TotalMark']")
+		private static WebElement PGtxtTotalMarksSem5AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester6TotalMark']")
+		private static WebElement PGtxtTotalMarksSem6AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester7TotalMark']")
+		private static WebElement PGtxtTotalMarksSem7AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester8TotalMark']")
+		private static WebElement PGtxtTotalMarksSem8AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester9TotalMark']")
+		private static WebElement PGtxtTotalMarksSem9AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.semester10TotalMark']")
+		private static WebElement PGtxtTotalMarksSem10AcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.overallTotalMarks']")
+		private static WebElement PGtxtTotalMarksOverallTotalAcademicDetailsLateral;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.overallPercentage']")
+		private static WebElement PGtxtOverAllPercentageAcademicDetailsLateral;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.courseStudiedId']")
+		private  WebElement txtDegreeTypeAcademicDetailsPg;
+		
+
+		@FindBy(xpath="//input[@id='input-colleges.1.countryId']")
+		private WebElement txtCountryTypeAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.stateId']")
+		private  WebElement txtStateTypeAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.courseTypeId']")
+		private  WebElement txtStCourseTypeAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.boardOfStudyId']")
+		private static WebElement txtStBoardOfStudyTypeAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.collegeId']")
+		private static WebElement txtStCollegeTypeAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.collegeId']")
+		private static WebElement txtStCollegeTypeOthersAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.departmentId']")
+		private static WebElement txtStBranchDepartmentTypeOthersAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.month']")
+		private static WebElement txtStMonthOfPassTypeOthersAcademicDetailsPg;
+		
+		@FindBy(xpath="//input[@id='input-colleges.1.yearOfPassing']")
+		private static WebElement txtStYearOfPassTypeOthersAcademicDetailsPg;
+		
+		@FindBy(xpath = "//input[@id='input-colleges.1.overallPercentage']")
+		private  WebElement txtOverAllPercentageAcademicDetailsLateralPG;
+		
+		@FindBy(xpath="//input[@id='input-tneaAllotmentOrderNo']")
+		private WebElement enterTNMBAadmissionno;
+		
+		@FindBy(xpath="//input[@id='input-tancetNumber']")
+		private WebElement enterTANCETadmissionno;
+		
+		@FindBy(xpath="//input[@id='input-tancetScore']")
+		private WebElement enterTANCETmark;
 		
 	public StudentsProfilePOM(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void threadSleep(long milisec) {
+	public static void threadSleep(long milisec) {
 		try {
 			Thread.sleep(milisec);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
 	}
+	public void enterTNMBAadmissionnofield(String TNMBAadmno) {
+		enterTNMBAadmissionno.click();
+		enterTNMBAadmissionno.clear();
+		enterTNMBAadmissionno.sendKeys(TNMBAadmno);
+	}
+	public void enterTANCETadmissionnofield(String TANCETadmno) {
+		enterTANCETadmissionno.click();
+		enterTANCETadmissionno.clear();
+		enterTANCETadmissionno.sendKeys(TANCETadmno);
+	}
+	public void enterTANCETmarkfield(String TANCETmark) {
+		enterTANCETmark.click();
+		enterTANCETmark.clear();
+		enterTANCETmark.sendKeys(TANCETmark);
+	}
+	
 	
 	public void clearFullName() {
 		txtFullNamePersonalDetailsTab.clear();
@@ -1587,6 +1761,10 @@ public class StudentsProfilePOM {
 	public void tickChkBoxSelectifyouhavecompletedHSC2() {		
 		chkBoxSelectifyouhavecompletedHSC2AcademicDetailsLateral.click();
 	}
+	public void tickChkBoxSelectifyouhavecompletedDiploma() {		
+		chkBoxSelectifyouhavecompletedDiplomaAcademicDetailsLateral.click();
+	}
+	
 	
 	public void selectDiplomaCountry(String lstDiplomaCountry) {
 		dpdCountryAcademicDetailsLateral.click();
@@ -1788,14 +1966,19 @@ public class StudentsProfilePOM {
 		threadSleep(1000);
 	} 
 	
-	public void enterOverallPercentage(String txtOverallPercentage) {
+	public static void enterOverallPercentage(String txtOverallPercentage) {
 		txtOverAllPercentageAcademicDetailsLateral.clear();
+		threadSleep(1000);
 		txtOverAllPercentageAcademicDetailsLateral.sendKeys(txtOverallPercentage);
 		threadSleep(1000);
 	} 
-		
+	public  void enterOverallPercentagePg(String txtOverallPercentage) {
+		txtOverAllPercentageAcademicDetailsLateralPG.clear();
+		threadSleep(1000);
+		txtOverAllPercentageAcademicDetailsLateralPG.sendKeys(txtOverallPercentage);
+		threadSleep(1000);}
 	
-	//**Lateral POM Methods ends here
+
 			
 	public List<String> getFamilyDetailsSectionText() {
 		List<String> familyDetailsSectionList = new ArrayList<>();
@@ -2658,8 +2841,152 @@ public class StudentsProfilePOM {
 		return txtAdmissionNo.getText();
 	}
 	
+//public void selectDiplomaCourseType(String lstDiplomaCourseType) {
+//		dpdCourseTypeAcademicDetailsLateral.click();
+//		threadSleep(2000);
+//		txtCourseTypeAcademicDetailsLateral.sendKeys(lstDiplomaCourseType + Keys.ENTER);
+//		threadSleep(2000);
+
+	    // === Dropdowns ===
+	    public void selectDegree(String degreeName) {
+	        DegreeDropdown.click();
+	       // threadSleep(2000);
+	        txtDegreeTypeAcademicDetailsPg.sendKeys(degreeName+ Keys.ENTER);
+	        //threadSleep(2000);
+	    }
+
+	    public  void selectCountry(String countryName) {
+	        CountryDropdown.click();
+	        threadSleep(2000);
+	        txtCountryTypeAcademicDetailsPg.sendKeys(countryName+Keys.ENTER);
+	        threadSleep(2000);
+	    }
+
+	    public  void selectState(String stateName) {
+	        StateDropdown.click();
+	        threadSleep(2000);
+	        txtStateTypeAcademicDetailsPg.sendKeys(stateName+Keys.ENTER);
+	        threadSleep(2000);
+	        
+	    }
+
+	    public  void selectCourseType(String courseType) {
+	        CoursetypeDropdown.click();
+	        threadSleep(2000);
+	        txtStCourseTypeAcademicDetailsPg.sendKeys(courseType+Keys.ENTER);
+	        threadSleep(2000);
+	       
+	    }
+
+	    public static void selectBoardOfStudy(String board) {
+	        BoardofstudyDropdown.click();
+	        threadSleep(2000);
+	        txtStBoardOfStudyTypeAcademicDetailsPg.sendKeys(board+Keys.ENTER);
+	        threadSleep(2000);
+	        }
+
+	    public static void selectCollege(String collegeName) {
+	        CollegeDropdown.click();
+	        threadSleep(2000);
+	        txtStCollegeTypeAcademicDetailsPg.sendKeys(collegeName+Keys.ENTER);
+	        threadSleep(2000);
+	        
+	    }
+
+	    public static void enterOtherCollegeName(String otherCollege) {
+	    	CollegeDropdown.click();
+	    	 threadSleep(2000);
+	    	txtStCollegeTypeOthersAcademicDetailsPg.sendKeys(Keys.ENTER);
+	    	 threadSleep(2000);
+	        Ifcollegenotlistedn.sendKeys(otherCollege);
+	        threadSleep(2000);
+	    }
+
+	    public static void selectBranchDepartment(String branch) {
+	        BranchDepartment.click();
+	        threadSleep(2000);
+	        txtStBranchDepartmentTypeOthersAcademicDetailsPg.sendKeys(branch+Keys.ENTER);
+	        threadSleep(2000);
+	    }
+
+	    public static void selectMonthOfPassing(String month) {
+	        MonthofpassingDropdown.click();
+	        threadSleep(2000);
+	        txtStMonthOfPassTypeOthersAcademicDetailsPg.sendKeys(month+Keys.ENTER);
+	        threadSleep(2000);
+	      }
+
+	    public static void selectYearOfPassing(String year) {
+	        Yearofpassingdropdown.click();
+	        threadSleep(2000);
+	        txtStYearOfPassTypeOthersAcademicDetailsPg.sendKeys(year+Keys.ENTER);
+	        threadSleep(2000);
+	        }
+
+	    // === Text Fields ===
+	    public static void enterUMISNo(String umisNo) {
+	        UMISno.clear();
+	        threadSleep(2000);
+	        UMISno.sendKeys(umisNo);
+	        threadSleep(2000);
+	    }
+
+	    public static void enterExamRegisterNo(String registerNo) {
+	        Examregisterno.clear();
+	        threadSleep(2000);
+	        Examregisterno.sendKeys(registerNo);
+	        threadSleep(2000);
+	    }
+
+	    // === Semester Marks (Scored) ===
+	    public static void enterMarksScored(int semester, String marks) {
+	        switch (semester) {
+	            case 1: PGtxtMarksScoredSem1AcademicDetailsLateral.sendKeys(marks); break;
+	            case 2: PGtxtMarksScoredSem2AcademicDetailsLateral.sendKeys(marks); break;
+	            case 3: PGtxtMarksScoredSem3AcademicDetailsLateral.sendKeys(marks); break;
+	            case 4: PGtxtMarksScoredSem4AcademicDetailsLateral.sendKeys(marks); break;
+	            case 5: PGtxtMarksScoredSem5AcademicDetailsLateral.sendKeys(marks); break;
+	            case 6: PGtxtMarksScoredSem6AcademicDetailsLateral.sendKeys(marks); break;
+	            case 7: PGtxtMarksScoredSem7AcademicDetailsLateral.sendKeys(marks); break;
+	            case 8: PGtxtMarksScoredSem8AcademicDetailsLateral.sendKeys(marks); break;
+	            case 9: PGtxtMarksScoredSem9AcademicDetailsLateral.sendKeys(marks); break;
+	            case 10: PGtxtMarksScoredSem10AcademicDetailsLateral.sendKeys(marks); break;
+	        }
+	    }
+
+	    public static void enterOverallMarksScored(String totalMarks) {
+	        PGtxtMarksScoredOverallTotalAcademicDetailsLateral.clear();
+	        PGtxtMarksScoredOverallTotalAcademicDetailsLateral.sendKeys(totalMarks);
+	    }
+
+	    // === Semester Total Marks ===
+	    public static void enterTotalMarks(int semester, String total) {
+	        switch (semester) {
+	            case 1: PGtxtTotalMarksSem1AcademicDetailsLateral.sendKeys(total); break;
+	            case 2: PGtxtTotalMarksSem2AcademicDetailsLateral.sendKeys(total); break;
+	            case 3: PGtxtTotalMarksSem3AcademicDetailsLateral.sendKeys(total); break;
+	            case 4: PGtxtTotalMarksSem4AcademicDetailsLateral.sendKeys(total); break;
+	            case 5: PGtxtTotalMarksSem5AcademicDetailsLateral.sendKeys(total); break;
+	            case 6: PGtxtTotalMarksSem6AcademicDetailsLateral.sendKeys(total); break;
+	            case 7: PGtxtTotalMarksSem7AcademicDetailsLateral.sendKeys(total); break;
+	            case 8: PGtxtTotalMarksSem8AcademicDetailsLateral.sendKeys(total); break;
+	            case 9: PGtxtTotalMarksSem9AcademicDetailsLateral.sendKeys(total); break;
+	            case 10: PGtxtTotalMarksSem10AcademicDetailsLateral.sendKeys(total); break;
+	        }
+	    }
+
+	    public static void enterOverallTotalMarks(String overallTotal) {
+	        PGtxtTotalMarksOverallTotalAcademicDetailsLateral.clear();
+	        PGtxtTotalMarksOverallTotalAcademicDetailsLateral.sendKeys(overallTotal);
+	    }
+
+	    public void enterOverallPercentage1(String percentage) {
+	        PGtxtOverAllPercentageAcademicDetailsLateral.clear();
+	        PGtxtOverAllPercentageAcademicDetailsLateral.sendKeys(percentage);
+	    }
+	}
+
 	
-	
-}
+
 
 

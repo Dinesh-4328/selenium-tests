@@ -22,7 +22,7 @@ import com.skitech.pageObjectsRepo.StudentsProfilePOM;
 import com.skitech.pageObjectsRepo.UploadFilePOM;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GovtQAOVOTestCase extends BaseTest{
+public class GovtQAOVOTestCase extends BaseClass{
 	
 
 	WebDriver driver;

@@ -3,14 +3,38 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.skitech.testCases.ManagQLateralStudProfTestCases">
+      <class name="com.skitech.testCases.GovtQPGStudProfTestCases">
         <methods>
-          <include name="tearDown"/>
-          <include name="init"/>
-          <include name="generateTestData"/>
+          <include name="TC_MQLSP_111_Verify_submit_button_in_preview_tab_if_leaving_mandatory_field_or_document_or_any_section"/>
           <include name="TC_MQLSP_013_Verify_student_profile_signin_with_invalid_OTP"/>
+          <include name="TC_MQLSP_088_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file"/>
+          <include name="TC_MQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport"/>
+          <include name="TC_MQLSP_083_Verify_upload_consortium_application_with_valid_file_type"/>
+          <include name="TC_MQLSP_095_Verify_mandatory_alerts_in_document_details_tab"/>
+          <include name="TC_MQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents"/>
+          <include name="TC_MQLSP_102_Verify_previous_step_in_documents_tab"/>
+          <include name="TC_MQLSP_085_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file"/>
+          <include name="TC_MQLSP_092_Verify_Documents_details_tab"/>
+          <include name="TC_MQLSP_011_Verify_sending_6_digit_code_with_valid_email"/>
+          <include name="init"/>
+          <include name="TC_MQLSP_097_Verify_Upload_columns_by_uploading_invalid_file_type_for_all_documents_sections"/>
+          <include name="TC_MQLSP_081_Verify_upload_consortium_application_with_invalid_file_type"/>
+          <include name="TC_MQLSP_082_Verify_upload_consortium_application_with_more_than_5mb_file"/>
+          <include name="TC_MQLSP_112_Verify_submit_button_in_preview_tab"/>
+          <include name="TC_MQLSP_099_Verify_Upload_valid_file_in_all_document_sections_in_document_tab"/>
+          <include name="TC_MQLSP_089_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb"/>
+          <include name="TC_MQLSP_090_Verify_add_admission_details_with_go_to_Home"/>
+          <include name="TC_MQLSP_098_Verify_Upload_columns_by_uploading_more_than_5mb"/>
+          <include name="TC_MQLSP_101_Verify_remove_documents_in_all_document_sections"/>
+          <include name="TC_MQLSP_104_Verify_preview_tab_sections"/>
+          <include name="TC_MQLSP_103_Verify_go_to_home_in_documents_tab"/>
+          <include name="TC_MQLSP_086_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb"/>
+          <include name="TC_MQLSP_087_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file"/>
+          <include name="TC_MQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler"/>
+          <include name="TC_MQLSP_084_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file"/>
+          <include name="TC_MQLSP_0100_Verify_view_all_document_sections_in_document_tab"/>
         </methods>
-      </class> <!-- com.skitech.testCases.ManagQLateralStudProfTestCases -->
+      </class> <!-- com.skitech.testCases.GovtQPGStudProfTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

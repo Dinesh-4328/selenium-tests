@@ -23,7 +23,7 @@ import com.skitech.pageObjectsRepo.UploadFilePOM;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class GovtQStudentProfileTestCases extends BaseTest {
+public class GovtQStudentProfileTestCases extends BaseClass {
 	
 	WebDriver driver;
 	SoftAssert softAssert;
