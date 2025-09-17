@@ -52,10 +52,10 @@ public class UploadFilePOM {
 	@FindBy(xpath = "//label//div[text()='Admission type']//following::div[5]//input[1]")
 	private WebElement txtAdmissionType;
 	
-	@FindBy(xpath = "(//label//div[text()='TNEA category']//following::div[1]")
+	@FindBy(xpath = "//label//div[text()='TNEA category']//following::div[1]")
 	private WebElement dpdTNEACategory;
 		
-	@FindBy(xpath = "(//label//div[text()='TNEA category']//following::div[5]//input[1]")
+	@FindBy(xpath = "//label//div[text()='TNEA category']//following::div[5]//input[1]")
 	private WebElement txtTNEACategory;
 
 	@FindBy(xpath = "//div[@class='inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full pt-6 px-4']")

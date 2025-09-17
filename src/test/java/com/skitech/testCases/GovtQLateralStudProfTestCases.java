@@ -89,7 +89,7 @@ public class GovtQLateralStudProfTestCases extends BaseTest{
 	
 	@Test(groups= {"Regression"},priority=1)
 	
-	public void TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email() throws IOException, InterruptedException{
+	public void TC_GQLSP_011_Verify_sending_6_digit_code_with_valid_email() throws IOException, InterruptedException {
 		
 		stepInfo("TC_SP_011_Verify_sending_6_digit_code_with_valid_email");
 		
@@ -121,7 +121,7 @@ public class GovtQLateralStudProfTestCases extends BaseTest{
 	}
 	
 	@Test(groups= {"Regression"},priority=2)
-	public void TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized(){
+	public void TC_GQLSP_012_Verify_sending_6_digit_code_fails_if_email_is_not_recognized() {
 		
 		stepInfo("Verify_sending_6_digit_code_fails_if_email_is_not_recognized");
 		

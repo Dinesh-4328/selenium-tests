@@ -930,7 +930,7 @@ public class GovtQAOVOTestCase extends BaseTest{
 		}
 		
 		@Test(groups = {"Regression"}, priority=46)
-		public void TC_AOVO_070_Verify_finish_verification_after_collecting_documents(){
+		public void TC_AOVO_070_Verify_finish_verification_after_collecting_documents() {
 			
 			stepInfo("Verify_finish_verification_after_collecting_documents");
 			

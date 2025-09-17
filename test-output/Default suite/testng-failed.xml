@@ -3,17 +3,46 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.skitech.testCases.GovtQAOVOTestCase">
+      <class name="com.skitech.testCases.GovtQLateralStudProfTestCases">
         <methods>
-          <include name="TC_AOVO_066_Verify_all_documents_in_document_view_pop_up"/>
-          <include name="generateTestData"/>
-          <include name="TC_AOVO_065_Verify_reject_all_documents_in_document_view_pop_up"/>
-          <include name="TC_AOVO_069_Verify_collect_column_for_all_documents"/>
+          <include name="TC_GQLSP_051_Verify_add_family_details_with_family_type_as_with_guardian"/>
+          <include name="TC_GQLSP_061_Verify_update_siblings"/>
           <include name="init"/>
-          <include name="TC_AOVO_029_Verify_Mark_as_Verified_while_in_Student_Information_tab"/>
+          <include name="TC_GQLSP_042_Verify_Upload_mark_sheet_document_more_than_5_mb"/>
+          <include name="TC_GQLSP_047_Verify_add_family_details_with_invalid_data"/>
+          <include name="TC_GQLSP_076_Verify_add_admission_details_with_dayscholar_college_transport"/>
+          <include name="TC_GQLSP_068_Verify_add_address_details_tab"/>
+          <include name="TC_GQLSP_062_Verify_remove_siblings"/>
+          <include name="TC_GQLSP_077_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_two_wheeler"/>
+          <include name="TC_GQLSP_058_Verify_add_sibling_with_valid_data"/>
+          <include name="TC_GQLSP_067_Verify_add_address_details_with_invalid_data"/>
           <include name="tearDown"/>
+          <include name="TC_GQLSP_020_Verify_add_personal_details"/>
+          <include name="TC_GQLSP_040_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_8_semesters"/>
+          <include name="TC_GQLSP_057_Verify_add_sibling_with_invalid_data"/>
+          <include name="TC_GQLSP_070_Verify_go_to_home_in_address_details"/>
+          <include name="TC_GQLSP_048_Verify_add_family_details_with_family_type_as_with_parents"/>
+          <include name="TC_GQLSP_038_Verify_add_academic_details_with_diploma_course_type_sandwich_8_semesters"/>
+          <include name="TC_GQLSP_084_Verify_upload_RC_and_License_for_four_wheeler_with_valid_file"/>
+          <include name="TC_GQLSP_039_Verify_add_academic_details_with_diploma_course_type_sandwich_lateral_7_semesters"/>
+          <include name="TC_GQLSP_075_Verify_add_admission_details_with_valid_data"/>
+          <include name="TC_GQLSP_041_Add_academic_details_by_uploading_invalid_file_types"/>
+          <include name="TC_GQLSP_064_Verify_Go_To_Home_Button_in_family_details"/>
+          <include name="TC_GQLSP_083_Verify_upload_RC_and_License_for_two_wheeler_with_more_than_5_mb"/>
+          <include name="generateTestData"/>
+          <include name="TC_GQLSP_109_Verify_submit_button_in_preview_tab"/>
+          <include name="TC_GQLSP_078_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_four_wheeler"/>
+          <include name="TC_GQLSP_059_Verify_add_another_sibling"/>
+          <include name="TC_GQLSP_085_Verify_upload_RC_and_License_for_four_wheeler_with_invalid_file"/>
+          <include name="TC_GQLSP_074_Verify_add_admission_details_with_invalid_data"/>
+          <include name="TC_GQLSP_069_Verify_Communication_address_is_same_as_permanent_address"/>
+          <include name="TC_GQLSP_080_Verify_add_admission_details_with_dayscholar_public_transport"/>
+          <include name="TC_GQLSP_086_Verify_upload_RC_and_License_for_four_wheeler_with_more_than_5_mb"/>
+          <include name="TC_GQLSP_082_Verify_upload_RC_and_License_for_two_wheeler_with_invalid_file"/>
+          <include name="TC_GQLSP_079_Verify_add_admission_details_with_dayscholar_for_personal_transport_for_Pickup_and_Drop_by_Parents"/>
+          <include name="TC_GQLSP_081_Verify_upload_RC_and_License_for_two_wheeler_with_valid_file"/>
         </methods>
-      </class> <!-- com.skitech.testCases.GovtQAOVOTestCase -->
+      </class> <!-- com.skitech.testCases.GovtQLateralStudProfTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
